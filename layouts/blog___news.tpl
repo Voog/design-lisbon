@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 {% include "template-variables" %}
 
-<html class="{{ view_mode }}" lang="{{ page.language_code }}">
+<html lang="{{ page.language_code }}" data-state="{{ view_mode }}">
   <head prefix="og: http://ogp.me/ns#">
     {% include "template-head" %}
   </head>

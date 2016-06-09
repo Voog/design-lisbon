@@ -12,6 +12,11 @@
   -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+[data-state="is-editmode"] .layout-content {
+  min-height: calc(100vh - 40px);
+}
+[data-state="is-publicmode"] .layout-content {
   min-height: 100vh;
 }
 .layout-content__wrap {
