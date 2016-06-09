@@ -50,6 +50,11 @@
 }
 
 .content-area {
+  -webkit-hyphens: auto;
+      -ms-hyphens: auto;
+          hyphens: auto;
+  word-break: break-word;
+  word-wrap: break-word;
   font-family: "Avenir Next", "Avenir", "Helvetica Neue", "Helvetica", "Segoe UI", sans-serif;
   font-size: 1rem;
   line-height: 1.7;
@@ -154,12 +159,58 @@
   list-style-position: inside;
   padding-left: 10px;
 }
+.content-area dd {
+  margin-left: 20px;
+}
 .content-area a {
   color: #00a96e;
   text-decoration: none;
 }
 .content-area a:hover {
   text-decoration: underline;
+}
+.content-area pre,
+.content-area code,
+.content-area iframe,
+.content-area table,
+.content-area form {
+  -webkit-hyphens: none;
+      -ms-hyphens: none;
+          hyphens: none;
+  word-break: normal;
+  word-wrap: normal;
+}
+.content-area pre,
+.content-area code {
+  padding: 10px;
+  font-size: 0.77778em;
+  font-weight: 400;
+  background-color: rgba(0, 169, 110, 0.5);
+}
+.content-area pre {
+  overflow: auto;
+}
+.content-area pre code {
+  display: inline;
+  padding: 0;
+  line-height: inherit;
+  white-space: pre;
+  background-color: transparent;
+}
+.content-area code {
+  display: inline-block;
+  max-width: 100%;
+  overflow: auto;
+  vertical-align: middle;
+  box-sizing: border-box;
+}
+.content-area blockquote {
+  margin: 20px 40px 20px 0;
+  padding-left: 20px;
+  border-left: 2px solid;
+}
+.content-area iframe {
+  max-width: 100%;
 }
 .content-area .edy-positionable-container-center,
 .content-area .edy-positionable-container-left-block,
@@ -181,7 +232,7 @@
 .content-area .edy-image-container-with-title::after {
   display: block;
   padding: 4px;
-  font-size: 12px;
+  font-size: 0.66667em;
   line-height: 1.3;
   content: attr(data-title);
 }
