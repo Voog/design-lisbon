@@ -1,7 +1,7 @@
 .content-area {
   font-family: $primary-font-family;
-  font-size: $primary-font-size;
-  line-height: $primary-line-height;
+  font-size: rem($em-base);
+  line-height: 1.7;
   color: rgba($color-rhino, 1);
 
   h1,
@@ -50,10 +50,54 @@
     word-wrap: break-word;
   }
 
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: $secondary-font-family;
+    font-weight: 400;
+    line-height: 1.2;
+    color: rgba($color-jade, 1);
+  }
+
+  h1 {
+    font-size: em(50px, $em-base);
+  }
+
+  h2 {
+    font-size: em(40px, $em-base);
+  }
+
+  h3 {
+    font-size: em(35px, $em-base);
+  }
+
+  h4 {
+    font-size: em(30px, $em-base);
+  }
+
+  h5 {
+    font-size: em(25px, $em-base);
+  }
+
+  h6 {
+    font-size: em(20px, $em-base);
+  }
+
+
   //p {
   //  margin-top: 1.7em;
   //  margin-bottom: 1.7em;
   //}
+
+  ul,
+  ol,
+  dl {
+    list-style-position: inside;
+    padding-left: 10px;
+  }
 
   a {
     color: rgba($color-jade, 1);

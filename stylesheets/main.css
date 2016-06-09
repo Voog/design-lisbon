@@ -16,6 +16,10 @@
   font-weight: 700;
   src: url("../assets/orator-bold.eot?#iefix") format("embedded-opentype"), url("../assets/orator-bold.woff2") format("woff2"), url("../assets/orator-bold.woff") format("woff"), url("../assets/orator-bold.ttf") format("truetype"), url("../assets/orator-bold.svg#Orator") format("svg");
 }
+.root {
+  font-size: 18px;
+}
+
 .layout {
   margin: 0;
 }
@@ -47,7 +51,7 @@
 
 .content-area {
   font-family: "Avenir Next", "Avenir", "Helvetica Neue", "Helvetica", "Segoe UI", sans-serif;
-  font-size: 18px;
+  font-size: 1rem;
   line-height: 1.7;
   color: #273e62;
 }
@@ -114,6 +118,41 @@
           hyphens: auto;
   word-break: break-word;
   word-wrap: break-word;
+}
+.content-area h1,
+.content-area h2,
+.content-area h3,
+.content-area h4,
+.content-area h5,
+.content-area h6 {
+  font-family: "Orator", sans-serif;
+  font-weight: 400;
+  line-height: 1.2;
+  color: #00a96e;
+}
+.content-area h1 {
+  font-size: 2.77778em;
+}
+.content-area h2 {
+  font-size: 2.22222em;
+}
+.content-area h3 {
+  font-size: 1.94444em;
+}
+.content-area h4 {
+  font-size: 1.66667em;
+}
+.content-area h5 {
+  font-size: 1.38889em;
+}
+.content-area h6 {
+  font-size: 1.11111em;
+}
+.content-area ul,
+.content-area ol,
+.content-area dl {
+  list-style-position: inside;
+  padding-left: 10px;
 }
 .content-area a {
   color: #00a96e;
