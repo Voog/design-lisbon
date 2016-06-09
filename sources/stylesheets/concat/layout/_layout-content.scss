@@ -1,0 +1,14 @@
+.layout-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+
+  &--main {
+
+  }
+
+  &__wrap {
+    background-color: rgba($color-jade, .5);
+  }
+}

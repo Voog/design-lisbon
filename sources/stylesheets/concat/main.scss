@@ -9,8 +9,11 @@
 @import '../../../bower_components/breakpoint-sass/stylesheets/breakpoint';
 
 // MODULES
+@import 'modules/colors';
 
 // BASE
+@import 'layout/layout';
+@import 'layout/layout-content';
 
 // COMPONENTS
 

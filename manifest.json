@@ -60,6 +60,18 @@
       "file": "javascripts/main.min.js",
       "kind": "javascript",
       "filename": "main.min.js"
+    },
+    {
+      "content_type": "text/css",
+      "file": "stylesheets/main.css",
+      "kind": "stylesheets",
+      "filename": "main.css"
+    },
+    {
+      "content_type": "text/css",
+      "file": "stylesheets/main.min.css",
+      "kind": "stylesheets",
+      "filename": "main.min.css"
     }
   ]
 }

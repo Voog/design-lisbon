@@ -60,7 +60,7 @@ module.exports = function(grunt) {
         },
         files: [{
           expand: true,
-          cwd: 'sources/stylesheets',
+          cwd: 'sources/stylesheets/concat',
           src: '*.scss',
           dest: 'stylesheets/',
           ext: '.css'
@@ -242,8 +242,8 @@ module.exports = function(grunt) {
 
       css_main: {
         files: [
-          'sources/stylesheets/*.scss',
-          'sources/stylesheets/*/*.scss',
+          'sources/stylesheets/concat/*.scss',
+          'sources/stylesheets/concat/*/*.scss',
         ],
         tasks: ['sass:build_main', 'postcss', 'cssmin:build', 'exec:kitmanifest', 'exec:kit:stylesheets/*.css']
       },
@@ -300,16 +300,16 @@ module.exports = function(grunt) {
   // It is faster to use "kit watch" along with grunt watch and disable the "kit push" commands for "grunt watch" task.
   // TODO: Optimize "grunt watch" task and uncomment the following code.
 
-  // grunt.event.on('watch', function(action, filepath, target) {
-  //   if (target == 'voog') {
-  //     if (action == 'added' || action == 'deleted') {
-  //       grunt.task.run(['exec:kitmanifest']);
-  //     }
-  //     if (grunt.file.exists('.voog')) {
-  //       if (action != 'deleted') {
-  //         grunt.task.run(['exec:kit:' + filepath]);
-  //       }
-  //     }
-  //   }
-  // });
+  grunt.event.on('watch', function(action, filepath, target) {
+    if (target == 'voog') {
+      if (action == 'added' || action == 'deleted') {
+        grunt.task.run(['exec:kitmanifest']);
+      }
+      if (grunt.file.exists('.voog')) {
+        if (action != 'deleted') {
+          grunt.task.run(['exec:kit:' + filepath]);
+        }
+      }
+    }
+  });
 };

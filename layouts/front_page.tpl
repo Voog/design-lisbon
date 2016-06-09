@@ -4,6 +4,13 @@
     {% include "template-head" %}
   </head>
 
-  <body>
+  <body class="layout">
+    <main>
+      <section class="layout-content layout-content--main">
+        <div class="layout-content__wrap">
+          <div class="content-area">{% content %}</div>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
