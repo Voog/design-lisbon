@@ -7,7 +7,7 @@
   </head>
 
   <body class="layout">
-    <main>
+    <main class="layout__container">
       <section class="layout-content layout-content--main">
         <div class="layout-content__wrap">
           <div class="content-area">{% content %}</div>

@@ -57,6 +57,96 @@
   ],
   "assets": [
     {
+      "content_type": "application/vnd.ms-fontobject",
+      "file": "assets/orator-bold.eot",
+      "kind": "assets",
+      "filename": "orator-bold.eot"
+    },
+    {
+      "content_type": "image/svg+xml",
+      "file": "assets/orator-bold.svg",
+      "kind": "assets",
+      "filename": "orator-bold.svg"
+    },
+    {
+      "content_type": "application/font-sfnt",
+      "file": "assets/orator-bold.ttf",
+      "kind": "assets",
+      "filename": "orator-bold.ttf"
+    },
+    {
+      "content_type": "application/font-woff",
+      "file": "assets/orator-bold.woff",
+      "kind": "assets",
+      "filename": "orator-bold.woff"
+    },
+    {
+      "content_type": "application/font-woff",
+      "file": "assets/orator-bold.woff2",
+      "kind": "assets",
+      "filename": "orator-bold.woff2"
+    },
+    {
+      "content_type": "application/vnd.ms-fontobject",
+      "file": "assets/orator-regular-italic.eot",
+      "kind": "assets",
+      "filename": "orator-regular-italic.eot"
+    },
+    {
+      "content_type": "image/svg+xml",
+      "file": "assets/orator-regular-italic.svg",
+      "kind": "assets",
+      "filename": "orator-regular-italic.svg"
+    },
+    {
+      "content_type": "application/font-sfnt",
+      "file": "assets/orator-regular-italic.ttf",
+      "kind": "assets",
+      "filename": "orator-regular-italic.ttf"
+    },
+    {
+      "content_type": "application/font-woff",
+      "file": "assets/orator-regular-italic.woff",
+      "kind": "assets",
+      "filename": "orator-regular-italic.woff"
+    },
+    {
+      "content_type": "application/font-woff",
+      "file": "assets/orator-regular-italic.woff2",
+      "kind": "assets",
+      "filename": "orator-regular-italic.woff2"
+    },
+    {
+      "content_type": "application/vnd.ms-fontobject",
+      "file": "assets/orator-regular.eot",
+      "kind": "assets",
+      "filename": "orator-regular.eot"
+    },
+    {
+      "content_type": "image/svg+xml",
+      "file": "assets/orator-regular.svg",
+      "kind": "assets",
+      "filename": "orator-regular.svg"
+    },
+    {
+      "content_type": "application/font-sfnt",
+      "file": "assets/orator-regular.ttf",
+      "kind": "assets",
+      "filename": "orator-regular.ttf"
+    },
+    {
+      "content_type": "application/font-woff",
+      "file": "assets/orator-regular.woff",
+      "kind": "assets",
+      "filename": "orator-regular.woff"
+    },
+    {
+      "content_type": "application/font-woff",
+      "file": "assets/orator-regular.woff2",
+      "kind": "assets",
+      "filename": "orator-regular.woff2"
+    },
+    {
       "content_type": "text/javascript",
       "file": "javascripts/main.js",
       "kind": "javascript",

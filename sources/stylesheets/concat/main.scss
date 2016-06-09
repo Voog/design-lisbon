@@ -6,10 +6,12 @@
 // =============================================================================
 
 // 3RD PARTY COMPONENTS
+@import '../../../bower_components/bourbon/app/assets/stylesheets/bourbon';
 @import '../../../bower_components/breakpoint-sass/stylesheets/breakpoint';
 
 // MODULES
 @import 'modules/colors';
+@import 'modules/fonts';
 
 // BASE
 @import 'layout/layout';

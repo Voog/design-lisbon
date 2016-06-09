@@ -1,5 +1,26 @@
+@font-face {
+  font-family: "Orator";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../assets/orator-regular.eot?#iefix") format("embedded-opentype"), url("../assets/orator-regular.woff2") format("woff2"), url("../assets/orator-regular.woff") format("woff"), url("../assets/orator-regular.ttf") format("truetype"), url("../assets/orator-regular.svg#Orator") format("svg");
+}
+@font-face {
+  font-family: "Orator";
+  font-style: italic;
+  font-weight: 400;
+  src: url("../assets/orator-regular-italic.eot?#iefix") format("embedded-opentype"), url("../assets/orator-regular-italic.woff2") format("woff2"), url("../assets/orator-regular-italic.woff") format("woff"), url("../assets/orator-regular-italic.ttf") format("truetype"), url("../assets/orator-regular-italic.svg#Orator") format("svg");
+}
+@font-face {
+  font-family: "Orator";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../assets/orator-bold.eot?#iefix") format("embedded-opentype"), url("../assets/orator-bold.woff2") format("woff2"), url("../assets/orator-bold.woff") format("woff"), url("../assets/orator-bold.ttf") format("truetype"), url("../assets/orator-bold.svg#Orator") format("svg");
+}
 .layout {
   margin: 0;
+}
+.layout__container {
+  font-family: 'Orator', sans-serif;
 }
 
 .layout-content {
