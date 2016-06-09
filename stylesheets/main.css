@@ -45,6 +45,12 @@
   display: none;
 }
 
+.content-area {
+  font-family: "Avenir Next", "Avenir", "Helvetica Neue", "Helvetica", "Segoe UI", sans-serif;
+  font-size: 18px;
+  line-height: 1.7;
+  color: #273e62;
+}
 .content-area h1:first-child,
 .content-area h2:first-child,
 .content-area h3:first-child,
@@ -110,6 +116,7 @@
   word-wrap: break-word;
 }
 .content-area a {
+  color: #00a96e;
   text-decoration: none;
 }
 .content-area a:hover {

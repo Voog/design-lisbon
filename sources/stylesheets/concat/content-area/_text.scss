@@ -1,4 +1,9 @@
 .content-area {
+  font-family: $primary-font-family;
+  font-size: $primary-font-size;
+  line-height: $primary-line-height;
+  color: rgba($color-rhino, 1);
+
   h1,
   h2,
   h3,
@@ -51,7 +56,7 @@
   //}
 
   a {
-    //color: rgba($color-orange, 1);
+    color: rgba($color-jade, 1);
     text-decoration: none;
 
     &:hover {
