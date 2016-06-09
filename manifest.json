@@ -1,0 +1,65 @@
+{
+  "description": "TODO: Write description here",
+  "name": "Lisbon",
+  "preview_medium": "",
+  "preview_small": "",
+  "author": "Tõnu Runnel",
+  "layouts": [
+    {
+      "content_type": "page",
+      "component": false,
+      "file": "layouts/common_page.tpl",
+      "layout_name": "common_page",
+      "title": "Common page"
+    },
+    {
+      "content_type": "blog",
+      "component": false,
+      "file": "layouts/blog___news.tpl",
+      "layout_name": "blog___news",
+      "title": "Blog & News"
+    },
+    {
+      "content_type": "blog_article",
+      "component": false,
+      "file": "layouts/blog_article.tpl",
+      "layout_name": "blog_article",
+      "title": "Blog article"
+    },
+    {
+      "content_type": "elements",
+      "component": false,
+      "file": "layouts/front_page.tpl",
+      "layout_name": "front_page",
+      "title": "Front page"
+    },
+    {
+      "content_type": "component",
+      "component": true,
+      "file": "components/template-head.tpl",
+      "layout_name": "template-head",
+      "title": "template-head"
+    },
+    {
+      "content_type": "component",
+      "component": true,
+      "file": "components/template-meta.tpl",
+      "layout_name": "template-meta",
+      "title": "template-meta"
+    }
+  ],
+  "assets": [
+    {
+      "content_type": "text/javascript",
+      "file": "javascripts/main.js",
+      "kind": "javascript",
+      "filename": "main.js"
+    },
+    {
+      "content_type": "text/javascript",
+      "file": "javascripts/main.min.js",
+      "kind": "javascript",
+      "filename": "main.min.js"
+    }
+  ]
+}

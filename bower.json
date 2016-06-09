@@ -1,0 +1,14 @@
+{
+  "name": "voog-design-lisbon",
+  "description": "The Lisbon design template for Voog",
+  "main": "",
+  "authors": [
+    "Kaspar Naaber <kaspar@voog.com>"
+  ],
+  "license": "MIT",
+  "homepage": "http://www.voog.com",
+  "private": false,
+  "devDependencies": {
+    "breakpoint-sass": "^2.7.0"
+  }
+}

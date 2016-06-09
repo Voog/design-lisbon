@@ -1,0 +1,24 @@
+
+[develop]
+  host=lisbon-develop.voog.construction
+  api_token=
+
+[template]
+  host=lisbon-template.voog.construction
+  api_token
+
+[demo]
+  host=lisbon-demo.voog.construction
+  api_token=
+
+[local]
+  host=lisbon-local.voog.computer
+  api_token=1f82c9df8d2648901ce253274be3ac86
+
+[content]
+  host=sapporo.voog.construction
+  api_token=
+
+[de-com]
+  host=lisbon-develop.voog.computer
+  api_token=48ed02fc36082d71a078bef52165b0dd
