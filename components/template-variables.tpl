@@ -5,4 +5,43 @@
   {% else %}
     {% assign view_mode = "publicmode" %}
   {% endif %}
+
+  {% comment %}Background variables{% endcomment %}
+  {% unless page.data.bg_picker_section_1 == nil %}
+    {% assign bg_picker_section_1_json = page.data.bg_picker_section_1 | json | escape %}
+  {% else %}
+    {% capture bg_picker_section_1_json %}
+      {
+        "original_id": 1503,
+        "color": false,
+        "image": "/images/section-main-bg_huge.jpg",
+        "width": 2048,
+        "height": 1195,
+        "imageSizes": [
+          {
+            "url": "/images/section-main-bg.jpg",
+            "height": 1400,
+            "width": 2400
+          },
+          {
+            "url": "/images/section-main-bg_huge.jpg",
+            "height": 1195,
+            "width": 2048
+          },
+          {
+            "url": "/images/section-main-bg_large.jpg",
+          "height": 747,
+          "width": 1280
+          },
+          {
+            "url": "/images/section-main-bg_block.jpg",
+            "height":350,
+            "width":600
+          }
+        ],
+        "colorData": null
+      }
+    {% endcapture %}
+    {% assign bg_picker_section_1_json = bg_picker_section_1_json | replace: " ", "" | strip_newlines | escape %}
+  {% endunless %}
 {% endcapture %}

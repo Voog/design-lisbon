@@ -168,6 +168,30 @@
       "filename": "orator-regular.woff2"
     },
     {
+      "content_type": "image/jpeg",
+      "file": "images/section-main-bg.jpg",
+      "kind": "images",
+      "filename": "section-main-bg.jpg"
+    },
+    {
+      "content_type": "image/jpeg",
+      "file": "images/section-main-bg_block.jpg",
+      "kind": "images",
+      "filename": "section-main-bg_block.jpg"
+    },
+    {
+      "content_type": "image/jpeg",
+      "file": "images/section-main-bg_huge.jpg",
+      "kind": "images",
+      "filename": "section-main-bg_huge.jpg"
+    },
+    {
+      "content_type": "image/jpeg",
+      "file": "images/section-main-bg_large.jpg",
+      "kind": "images",
+      "filename": "section-main-bg_large.jpg"
+    },
+    {
       "content_type": "text/javascript",
       "file": "javascripts/main.js",
       "kind": "javascript",
