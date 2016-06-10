@@ -43,9 +43,23 @@
     {
       "content_type": "component",
       "component": true,
+      "file": "components/template-javascripts.tpl",
+      "layout_name": "template-javascripts",
+      "title": "template-javascripts"
+    },
+    {
+      "content_type": "component",
+      "component": true,
       "file": "components/template-meta.tpl",
       "layout_name": "template-meta",
       "title": "template-meta"
+    },
+    {
+      "content_type": "component",
+      "component": true,
+      "file": "components/template-tools.tpl",
+      "layout_name": "template-tools",
+      "title": "template-tools"
     },
     {
       "content_type": "component",

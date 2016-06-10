@@ -3,11 +3,11 @@
   align-items: center;
   justify-content: center;
 
-  [data-state="is-editmode"] & {
+  [data-state="editmode"] & {
     min-height: calc(100vh - 40px);
   }
 
-  [data-state="is-publicmode"] & {
+  [data-state="publicmode"] & {
     min-height: 100vh;
   }
 

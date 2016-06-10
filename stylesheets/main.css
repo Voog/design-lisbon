@@ -16,6 +16,14 @@
   font-weight: 700;
   src: url("../assets/orator-bold.eot?#iefix") format("embedded-opentype"), url("../assets/orator-bold.woff2") format("woff2"), url("../assets/orator-bold.woff") format("woff"), url("../assets/orator-bold.ttf") format("truetype"), url("../assets/orator-bold.svg#Orator") format("svg");
 }
+[data-state='hidden'] {
+  display: none;
+}
+
+[data-state='visible-block'] {
+  display: block;
+}
+
 .root {
   font-size: 18px;
 }
@@ -35,10 +43,10 @@
       -ms-flex-pack: center;
           justify-content: center;
 }
-[data-state="is-editmode"] .layout-content {
+[data-state="editmode"] .layout-content {
   min-height: calc(100vh - 40px);
 }
-[data-state="is-publicmode"] .layout-content {
+[data-state="publicmode"] .layout-content {
   min-height: 100vh;
 }
 .layout-content__wrap {
