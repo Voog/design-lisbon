@@ -16,5 +16,14 @@
 
   &__wrap {
     background-color: rgba($color-jade, .5);
+
+    &--featured {
+      $horizontal-margin: 50px;
+
+      min-width: 300px;
+      margin-right: $horizontal-margin;
+      margin-left: $horizontal-margin;
+      padding: 32px 28px;
+    }
   }
 }

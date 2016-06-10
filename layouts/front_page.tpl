@@ -8,8 +8,8 @@
 
   <body class="layout">
     <main>
-      <section class="layout-content layout-content--main">
-        <div class="layout-content__wrap">
+      <section class="layout-content layout-content--main" data-theme="normal">
+        <div class="layout-content__wrap layout-content__wrap--featured">
           <div class="content-area">{% content %}</div>
         </div>
       </section>
