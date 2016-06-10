@@ -36,13 +36,6 @@
     {
       "content_type": "component",
       "component": true,
-      "file": "components/template-head.tpl",
-      "layout_name": "template-head",
-      "title": "template-head"
-    },
-    {
-      "content_type": "component",
-      "component": true,
       "file": "components/template-javascripts.tpl",
       "layout_name": "template-javascripts",
       "title": "template-javascripts"
@@ -50,9 +43,23 @@
     {
       "content_type": "component",
       "component": true,
+      "file": "components/template-head.tpl",
+      "layout_name": "template-head",
+      "title": "template-head"
+    },
+    {
+      "content_type": "component",
+      "component": true,
       "file": "components/template-meta.tpl",
       "layout_name": "template-meta",
       "title": "template-meta"
+    },
+    {
+      "content_type": "component",
+      "component": true,
+      "file": "components/template-styles.tpl",
+      "layout_name": "template-styles",
+      "title": "template-styles"
     },
     {
       "content_type": "component",
