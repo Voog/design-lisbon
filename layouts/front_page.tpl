@@ -8,27 +8,28 @@
 
   <body class="layout">
     <main>
-      <section class="layout-content layout-content--main" data-theme="normal" data-bg-picker="area">
+      <section class="layout-content layout-content--main layout-content--with-bg" data-theme="normal" data-bg-picker="area">
+        <div class="layout-content__color-overlay" data-bg-picker="color-overlay"></div>
         {% if editmode %}
-          <button class="btn" data-bg-picker="button" data-bg-picker-picture-option="true" data-bg-picker-target-width="2048" data-bg-picker-color-option="true" data-bg-picker-key="bg_section_1" data-bg="{{ page.data.bg_section_1 | json | escape }}"></button>
+          <button class="btn--center-left" data-state="hidden" data-bg-picker="button" data-bg-picker-picture-option="true" data-bg-picker-target-width="2048" data-bg-picker-color-option="true" data-bg-picker-alpha-option="true" data-bg-picker-key="bg_section_1" data-bg="{{ page.data.bg_section_1 | json | escape }}"></button>
         {% endif %}
-        
+
         <div class="layout-content__wrap layout-content__wrap--featured">
           <div class="content-area">{% content %}</div>
         </div>
       </section>
-      
+
       <section class="layout-content layout-content--main" data-theme="normal" data-bg-picker="area">
         {% if editmode %}
-          <button data-state="hidden" data-bg-picker="button" data-bg-picker-picture-option="true" data-bg-picker-target-width="2048" data-bg-picker-color-option="true" data-bg-picker-key="bg_section_2" data-bg="{{ page.data.bg_section_2 | json | escape }}"></button>
+          <button class="btn--center-left" data-state="hidden" data-bg-picker="button" data-bg-picker-picture-option="true" data-bg-picker-target-width="2048" data-bg-picker-color-option="true" data-bg-picker-alpha-option="true" data-bg-picker-key="bg_section_2" data-bg="{{ page.data.bg_section_2 | json | escape }}"></button>
         {% endif %}
-        
+
         <div class="layout-content__wrap layout-content__wrap--featured">
           <div class="content-area">{% content %}</div>
         </div>
       </section>
     </main>
-    
+
     {% include "template-javascripts" %}
     {% include "template-tools" %}
   </body>

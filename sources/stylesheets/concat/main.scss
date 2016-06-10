@@ -13,7 +13,10 @@
 @import 'modules/mixins';
 @import 'modules/colors';
 @import 'modules/fonts';
-@import 'modules/states';
+
+// GENERAL
+@import 'general/states';
+@import 'general/buttons';
 
 // BASE
 @import 'layout/root';
