@@ -8,9 +8,9 @@
 
   {% comment %}Background variables{% endcomment %}
   {% unless page.data.bg_picker_section_1 == nil %}
-    {% assign bg_picker_section_1_json = page.data.bg_picker_section_1 | json | escape %}
+    {% assign bg_picker_section_1_data = page.data.bg_picker_section_1 | json | escape %}
   {% else %}
-    {% capture bg_picker_section_1_json %}
+    {% capture bg_picker_section_1_data %}
       {
         "original_id": 1503,
         "color": false,
@@ -30,8 +30,8 @@
           },
           {
             "url": "/images/section-main-bg_large.jpg",
-          "height": 747,
-          "width": 1280
+            "height": 747,
+            "width": 1280
           },
           {
             "url": "/images/section-main-bg_block.jpg",
@@ -42,6 +42,6 @@
         "colorData": null
       }
     {% endcapture %}
-    {% assign bg_picker_section_1_json = bg_picker_section_1_json | replace: " ", "" | strip_newlines | escape %}
+    {% assign bg_picker_section_1_data = bg_picker_section_1_data | replace: " ", "" | strip_newlines | escape %}
   {% endunless %}
 {% endcapture %}
