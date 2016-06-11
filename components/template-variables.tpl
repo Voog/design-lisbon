@@ -12,7 +12,7 @@
   {% else %}
     {% capture bg_picker_section_1_data %}
       {
-        "original_id": 1503,
+        "original_id": null,
         "color": false,
         "image": "/images/section-main-bg_huge.jpg",
         "width": 2048,

@@ -56,8 +56,13 @@ var bindBgPickers = function() {
       showAlpha: bgPickerButton.getAttribute('data-bg-picker-alpha-option'),
 
       preview: function(data) {
-        bgPickerArea.style.backgroundImage = "url('" + data.image + "')";
-        bgPickerArea.querySelector('[data-bg-picker="color-overlay"]').style.backgroundColor = data.color;
+        if (data.image) {
+          bgPickerArea.style.backgroundImage = "url('" + data.image + "')";
+        }
+
+        if (data.color) {
+          bgPickerArea.querySelector('[data-bg-picker="color-overlay"]').style.backgroundColor = data.color;
+        }
       },
 
       commit: function(data) {
