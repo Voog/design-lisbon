@@ -35,6 +35,7 @@
     &--featured {
       $horizontal-margin: 50px;
 
+      position: relative;
       min-width: 300px;
       padding: 32px 28px;
       margin-right: $horizontal-margin;

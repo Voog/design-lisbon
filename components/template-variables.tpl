@@ -6,7 +6,7 @@
     {% assign view_mode = "publicmode" %}
   {% endif %}
 
-  {% comment %}Background variables{% endcomment %}
+  {% comment %}[[ SECTION 1 BACKGROUND START ]]{% endcomment %}
   {% unless page.data.bg_picker_section_1 == nil %}
     {% assign bg_picker_section_1 = page.data.bg_picker_section_1 %}
     {% assign bg_picker_section_1_data = bg_picker_section_1 | json | escape %}
@@ -45,4 +45,25 @@
     {% endcapture %}
     {% assign bg_picker_section_1_data = bg_picker_section_1_data | replace: " ", "" | strip_newlines | escape %}
   {% endunless %}
+  {% comment %}[[ SECTION 1 BACKGROUND END ]]{% endcomment %}
+
+  {% comment %}[[ SECTION 1 BACKGROUND START ]]{% endcomment %}
+  {% unless page.data.bg_picker_section_2 == nil %}
+    {% assign bg_picker_section_2 = page.data.bg_picker_section_2 %}
+    {% assign bg_picker_section_2_data = bg_picker_section_2 | json | escape %}
+  {% else %}
+    {% capture bg_picker_section_2_data %}
+      {
+        "original_id"=>nil,
+        "color"=>false,
+        "image"=>nil,
+        "width"=>nil,
+        "height"=>nil,
+        "imageSizes"=>nil,
+        "colorData"=>nil
+      }
+    {% endcapture %}
+    {% assign bg_picker_section_2_data = bg_picker_section_2_data | replace: " ", "" | strip_newlines | escape %}
+  {% endunless %}
+  {% comment %}[[ SECTION 1 BACKGROUND END ]]{% endcomment %}
 {% endcapture %}

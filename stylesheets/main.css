@@ -74,6 +74,7 @@
   background-color: rgba(0, 169, 110, 0.5);
 }
 .layout-content__wrap--featured {
+  position: relative;
   min-width: 300px;
   padding: 32px 28px;
   margin-right: 50px;

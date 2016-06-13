@@ -58,10 +58,14 @@ var bindBgPickers = function() {
       preview: function(data) {
         if (data.image) {
           bgPickerArea.style.backgroundImage = "url('" + data.image + "')";
+        } else {
+          bgPickerArea.style.backgroundImage = 'none';
         }
 
         if (data.color) {
           bgPickerArea.querySelector('[data-bg-picker="color-overlay"]').style.backgroundColor = data.color;
+        } else {
+          bgPickerArea.querySelector('[data-bg-picker="color-overlay"]').style.backgroundColor = 'transparent';
         }
       },
 

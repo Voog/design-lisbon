@@ -8,6 +8,10 @@
   </head>
 
   <body class="layout">
+    <!-- <pre>
+      {{ page.data.bg_picker_section_2 }}
+    </pre> -->
+
     <main>
       <section class="layout-content layout-content--main layout-content--with-bg" data-theme="white" data-bg-picker="area" data-bg-area="section-1">
         {% if editmode or bg_picker_section_1.color %}
@@ -33,7 +37,7 @@
         {% endif %}
 
         <div class="layout-content__wrap layout-content__wrap--featured">
-          <div class="content-area">{% content %}</div>
+          <div class="content-area">{% content name="section_2" %}</div>
         </div>
       </section>
     </main>
