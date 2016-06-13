@@ -1,0 +1,33 @@
+.layout-header {
+  $horizontal-position: 0;
+
+  position: fixed;
+  right: $horizontal-position;
+  left: $horizontal-position;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  font-family: $secondary-font-family;
+
+  &__title {
+    flex-grow: 1;
+  }
+
+  &__link {
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  &__menu-main {
+    flex-grow: 1;
+    text-align: center;
+  }
+
+  &__menu-language {
+    flex-grow: 1;
+    text-align: right;
+  }
+}
