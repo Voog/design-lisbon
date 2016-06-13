@@ -40,6 +40,11 @@ var extend = function () {
   return extended;
 };
 
+var bindCustomTextEditorStyles = function(buttonTranslation) {
+  window.edy = window.edy || [];
+  edy.push(['texteditorStyles', {name: buttonTranslation, tagname:'a', attribute: {'href': '#'}, classname: 'custom-btn', toggle: true}]);
+};
+
 // =============================================================================
 // Binds editmode background pickers.
 // =============================================================================
@@ -91,6 +96,7 @@ window.template = extend(window.template || {}, {
   // initFrontPage: initFrontPage,
 
   // Initiations for specific functions.
+  bindCustomTextEditorStyles: bindCustomTextEditorStyles,
   bindBgPickers: bindBgPickers
 });
 

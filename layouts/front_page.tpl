@@ -40,7 +40,10 @@
           </div>
 
           <div class="layout-content__body">
-            <div class="layout-content__column">{% content name="section_2_first" %}</div>
+            <div class="layout-content__column">
+              <div class="content-area">{% content name="section_2_first" %}</div>
+            </div>
+
             <div class="layout-content__column">{% content name="section_2_second" %}</div>
           </div>
         </div>

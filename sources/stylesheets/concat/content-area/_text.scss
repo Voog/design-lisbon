@@ -181,6 +181,26 @@
     max-width: 100%;
   }
 
+  .custom-btn {
+    display: inline-block;
+    padding: 8px 15px 9px;
+    font-family: inherit;
+    font-size: em(18px, $em-base);
+    line-height: 1.4;
+    color: rgba($color-white, 1);
+    background-color: rgba($color-jade, 1);
+    border-radius: 3px;
+    outline: 0;
+    -webkit-appearance: none;
+
+    //&:hover {
+    //}
+
+    .publicmode & {
+      cursor: pointer;
+    }
+  }
+
   //b,
   //strong {
   //  font-weight: 600;

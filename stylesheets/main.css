@@ -394,6 +394,21 @@
 .content-area iframe {
   max-width: 100%;
 }
+.content-area .custom-btn {
+  display: inline-block;
+  padding: 8px 15px 9px;
+  font-family: inherit;
+  font-size: 1em;
+  line-height: 1.4;
+  color: white;
+  background-color: #00a96e;
+  border-radius: 3px;
+  outline: 0;
+  -webkit-appearance: none;
+}
+.publicmode .content-area .custom-btn {
+  cursor: pointer;
+}
 .content-area .edy-positionable-container-center,
 .content-area .edy-positionable-container-left-block,
 .content-area .edy-positionable-container-right-block,
