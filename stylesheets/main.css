@@ -40,6 +40,11 @@
   margin: 0;
 }
 
+.layout-header {
+  position: fixed;
+  z-index: 1;
+}
+
 .layout-content {
   position: relative;
   display: -webkit-flex;

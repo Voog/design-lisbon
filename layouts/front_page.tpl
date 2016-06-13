@@ -8,10 +8,8 @@
   </head>
 
   <body class="layout">
-    <!-- <pre>
-      {{ page.data.bg_picker_section_2 }}
-    </pre> -->
-
+    {% include "layout-header" %}
+    
     <main>
       <section class="layout-content layout-content--main layout-content--with-bg" data-theme="white" data-bg-picker="area" data-bg-area="section-1">
         {% if editmode or bg_picker_section_1.color %}

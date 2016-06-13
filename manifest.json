@@ -36,9 +36,23 @@
     {
       "content_type": "component",
       "component": true,
-      "file": "components/template-javascripts.tpl",
-      "layout_name": "template-javascripts",
-      "title": "template-javascripts"
+      "file": "components/menu-main.tpl",
+      "layout_name": "menu-main",
+      "title": "menu-main"
+    },
+    {
+      "content_type": "component",
+      "component": true,
+      "file": "components/menu-language.tpl",
+      "layout_name": "menu-language",
+      "title": "menu-language"
+    },
+    {
+      "content_type": "component",
+      "component": true,
+      "file": "components/layout-header.tpl",
+      "layout_name": "layout-header",
+      "title": "layout-header"
     },
     {
       "content_type": "component",
@@ -46,6 +60,13 @@
       "file": "components/template-head.tpl",
       "layout_name": "template-head",
       "title": "template-head"
+    },
+    {
+      "content_type": "component",
+      "component": true,
+      "file": "components/template-javascripts.tpl",
+      "layout_name": "template-javascripts",
+      "title": "template-javascripts"
     },
     {
       "content_type": "component",
