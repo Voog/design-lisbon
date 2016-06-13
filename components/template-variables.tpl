@@ -8,7 +8,8 @@
 
   {% comment %}Background variables{% endcomment %}
   {% unless page.data.bg_picker_section_1 == nil %}
-    {% assign bg_picker_section_1_data = page.data.bg_picker_section_1 | json | escape %}
+    {% assign bg_picker_section_1 = page.data.bg_picker_section_1 %}
+    {% assign bg_picker_section_1_data = bg_picker_section_1 | json | escape %}
   {% else %}
     {% capture bg_picker_section_1_data %}
       {
