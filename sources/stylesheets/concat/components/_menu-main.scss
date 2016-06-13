@@ -1,6 +1,9 @@
 .menu-main {
-  padding-left: 0;
-  margin-bottom: 0;
+  $whitespace: 0;
+
+  padding-left: $whitespace;
+  margin-top: $whitespace;
+  margin-bottom: $whitespace;
   list-style-type: none;
 
   &__item {
@@ -9,7 +12,11 @@
     // TODO: Convert to BEM syntax if CMS adds support for {% menulink %} classes.
     a {
       display: block;
+      padding: 8px 10px 6px;
       text-decoration: none;
+      border-color: transparent;
+      border-style: solid;
+      border-width: 1px;
 
       // scss-lint:disable NestingDepth
       [data-theme='normal'] & {
@@ -21,7 +28,26 @@
       }
 
       &:hover {
-        text-decoration: underline;
+        border-color: initial;
+      }
+      // scss-lint:enable NestingDepth
+    }
+
+    // TODO: Convert to BEM syntax if CMS adds support for {% menulink %} classes.
+    &--selected {
+      // scss-lint:disable NestingDepth
+      //a {
+      //}
+      // scss-lint:enable NestingDepth
+    }
+
+    // TODO: Convert to BEM syntax if CMS adds support for {% menulink %} classes.
+    &--current {
+      // scss-lint:disable NestingDepth
+      a {
+        border-color: initial;
+        border-style: solid;
+        border-width: 1px;
       }
       // scss-lint:enable NestingDepth
     }
@@ -29,9 +55,11 @@
     &--untranslated {
       opacity: .3;
 
+      // scss-lint:disable NestingDepth
       &:hover {
         opacity: .5;
       }
+      // scss-lint:enable NestingDepth
     }
   }
 }

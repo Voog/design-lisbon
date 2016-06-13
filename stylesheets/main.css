@@ -48,18 +48,29 @@
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  padding: 30px;
   font-family: "Orator", sans-serif;
 }
 .layout-header__title {
   -webkit-flex-grow: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
+  max-width: 33.3%;
 }
 .layout-header__link {
   text-decoration: none;
+}
+[data-theme='normal'] .layout-header__link {
+  color: #273e62;
+}
+[data-theme='white'] .layout-header__link {
+  color: white;
 }
 .layout-header__link:hover {
   text-decoration: underline;
@@ -74,6 +85,7 @@
   -webkit-flex-grow: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
+  max-width: 33.3%;
   text-align: right;
 }
 
@@ -120,6 +132,7 @@
 
 .menu-main {
   padding-left: 0;
+  margin-top: 0;
   margin-bottom: 0;
   list-style-type: none;
 }
@@ -128,7 +141,11 @@
 }
 .menu-main__item a {
   display: block;
+  padding: 8px 10px 6px;
   text-decoration: none;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 1px;
 }
 [data-theme='normal'] .menu-main__item a {
   color: #273e62;
@@ -137,13 +154,47 @@
   color: white;
 }
 .menu-main__item a:hover {
-  text-decoration: underline;
+  border-color: initial;
+}
+.menu-main__item--current a {
+  border-color: initial;
+  border-style: solid;
+  border-width: 1px;
 }
 .menu-main__item--untranslated {
   opacity: .3;
 }
 .menu-main__item--untranslated:hover {
   opacity: .5;
+}
+
+.menu-language {
+  position: relative;
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  list-style-type: none;
+}
+.menu-language__item {
+  display: block;
+}
+.menu-language__item--cms-btn {
+  position: absolute;
+  right: 0;
+}
+.menu-language__item a {
+  display: block;
+  font-size: 14px;
+  text-decoration: none;
+}
+[data-theme='normal'] .menu-language__item a {
+  color: #273e62;
+}
+[data-theme='white'] .menu-language__item a {
+  color: white;
+}
+.menu-language__item a:hover {
+  text-decoration: underline;
 }
 
 .content-area:empty {
@@ -165,6 +216,11 @@
 }
 [data-theme='white'] .content-area {
   color: white;
+}
+.layout-header__title .content-area {
+  font-family: "Orator", sans-serif;
+  font-size: 30px;
+  line-height: 1;
 }
 .content-area h1:first-child,
 .content-area h2:first-child,

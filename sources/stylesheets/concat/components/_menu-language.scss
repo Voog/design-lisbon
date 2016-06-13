@@ -1,0 +1,39 @@
+.menu-language {
+  $whitespace: 0;
+
+  position: relative;
+  padding-left: $whitespace;
+  margin-top: $whitespace;
+  margin-bottom: $whitespace;
+  list-style-type: none;
+
+  &__item {
+    display: block;
+
+    &--cms-btn {
+      position: absolute;
+      right: 0;
+    }
+
+    // TODO: Convert to BEM syntax if CMS adds support for {% menulink %} classes.
+    a {
+      display: block;
+      font-size: 14px;
+      text-decoration: none;
+
+      // scss-lint:disable NestingDepth
+      [data-theme='normal'] & {
+        color: rgba($color-rhino, 1);
+      }
+
+      [data-theme='white'] & {
+        color: rgba($color-white, 1);
+      }
+
+      &:hover {
+        text-decoration: underline;
+      }
+      // scss-lint:enable NestingDepth
+    }
+  }
+}

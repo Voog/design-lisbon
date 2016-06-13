@@ -1,11 +1,11 @@
 <header class="layout-header" data-theme="white">
   <div class="layout-header__title">
     {% if editmode %}
-      <a class="layout-header__link" href="{{ site.root_item.url }}">
-        <div class="content-area">{% editable site.header %}</div>
-      </a>
+      <div class="content-area">{% editable site.header %}</div>
     {% else %}
-      <div class="content-area">{{ site.header }}</div>
+      <a class="layout-header__link" href="{{ site.root_item.url }}">
+        <div class="content-area">{{ site.header }}</div>
+      </a>
     {% endif %}
   </div>
 

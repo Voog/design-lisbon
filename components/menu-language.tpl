@@ -7,7 +7,7 @@
     {% endfor %}
 
     {% if editmode %}
-      <li class="menu-language__item menu-language__item--cms-button">{% languageadd %}</li>
+      <li class="menu-language__item menu-language__item--cms-btn">{% languageadd %}</li>
     {% endif %}
   </ul>
 {% endif %}

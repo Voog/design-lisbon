@@ -6,15 +6,26 @@
   left: $horizontal-position;
   z-index: 1;
   display: flex;
+  align-items: center;
   justify-content: space-between;
+  padding: 30px;
   font-family: $secondary-font-family;
 
   &__title {
     flex-grow: 1;
+    max-width: 33.3%;
   }
 
   &__link {
     text-decoration: none;
+
+    [data-theme='normal'] & {
+      color: rgba($color-rhino, 1);
+    }
+
+    [data-theme='white'] & {
+      color: rgba($color-white, 1);
+    }
 
     &:hover {
       text-decoration: underline;
@@ -28,6 +39,7 @@
 
   &__menu-language {
     flex-grow: 1;
+    max-width: 33.3%;
     text-align: right;
   }
 }

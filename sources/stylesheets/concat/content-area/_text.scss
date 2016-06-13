@@ -12,6 +12,14 @@
     color: rgba($color-white, 1);
   }
 
+  // scss-lint:disable SelectorFormat
+  .layout-header__title & {
+    font-family: $secondary-font-family;
+    font-size: 30px;
+    line-height: 1;
+  }
+  // scss-lint:enable SelectorFormat
+
   h1,
   h2,
   h3,
