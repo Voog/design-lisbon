@@ -20,7 +20,7 @@
           <button class="btn--center-left" data-state="hidden" data-bg-picker="button" data-bg-picker-picture-option="true" data-bg-picker-target-width="2048" data-bg-picker-color-option="true" data-bg-picker-alpha-option="true" data-bg-picker-key="bg_picker_section_1" data-bg="{{ bg_picker_section_1_data }}"></button>
         {% endif %}
 
-        <div class="layout-content__wrap layout-content__wrap--featured">
+        <div class="layout-content__wrap layout-content__wrap--focus-content">
           <div class="content-area">{% content %}</div>
         </div>
       </section>
