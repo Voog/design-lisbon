@@ -15,29 +15,29 @@
       {
         "original_id": null,
         "color": false,
-        "image": "/images/section-main-bg_huge.jpg",
+        "image": "//media.kraftal.com/0000/0000/0044/photos/house_huge.jpg",
         "width": 2048,
         "height": 1195,
         "imageSizes": [
           {
-            "url": "/images/section-main-bg.jpg",
+            "url": "//media.kraftal.com/0000/0000/0044/photos/house.jpg",
             "height": 1400,
             "width": 2400
           },
           {
-            "url": "/images/section-main-bg_huge.jpg",
+            "url": "//media.kraftal.com/0000/0000/0044/photos/house_huge.jpg",
             "height": 1195,
             "width": 2048
           },
           {
-            "url": "/images/section-main-bg_large.jpg",
+            "url": "//media.kraftal.com/0000/0000/0044/photos/house_large.jpg",
             "height": 747,
             "width": 1280
           },
           {
-            "url": "/images/section-main-bg_block.jpg",
-            "height":350,
-            "width":600
+            "url": "//media.kraftal.com/0000/0000/0044/photos/house_block.jpg",
+            "height": 350,
+            "width": 600
           }
         ],
         "colorData": null

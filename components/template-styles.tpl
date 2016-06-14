@@ -28,25 +28,25 @@
     {% else %}
       @media screen and (max-width: 600px), screen and (max-height: 350px) {
         [data-bg-area='section-1'] {
-          background-image: url("/images/section-main-bg_block.jpg");
+          background-image: url("/images/house_block.jpg");
         }
       }
 
       @media screen and (min-width: 601px), screen and (min-height: 351px) {
         [data-bg-area='section-1'] {
-          background-image: url("/images/section-main-bg_large.jpg");
+          background-image: url("/images/house_large.jpg");
         }
       }
 
       @media screen and (min-width: 1281px), screen and (min-height: 748px) {
         [data-bg-area='section-1'] {
-          background-image: url("/images/section-main-bg_huge.jpg");
+          background-image: url("/images/house_huge.jpg");
         }
       }
 
       @media screen and (min-width: 2049px), screen and (min-height: 1196px) {
         [data-bg-area='section-1'] {
-          background-image: url("/images/section-main-bg.jpg");
+          background-image: url("/images/house.jpg");
         }
       }
     {% endunless %}
