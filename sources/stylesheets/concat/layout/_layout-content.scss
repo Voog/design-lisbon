@@ -4,6 +4,8 @@
   align-items: center;
   flex-direction: column;
   justify-content: center;
+  padding: 98px 30px;
+  box-sizing: border-box;
 
   [data-state="editmode"] & {
     min-height: calc(100vh - 40px);
@@ -32,7 +34,8 @@
 
   &__wrap {
     position: relative;
-    min-width: 300px;
+    width: 100%;
+    max-width: 1100px;
 
     &--focus-content {
       $horizontal-margin: 50px;
@@ -46,5 +49,20 @@
 
   &__body {
     display: flex;
+
+    &--features-wrap {
+      align-items: flex-end;
+      margin-top: 45px;
+    }
+  }
+
+  &__column {
+    &--body {
+      flex-grow: 1;
+    }
+
+    &--features-list {
+      display: flex;
+    }
   }
 }

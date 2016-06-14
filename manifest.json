@@ -36,27 +36,6 @@
     {
       "content_type": "component",
       "component": true,
-      "file": "components/menu-main.tpl",
-      "layout_name": "menu-main",
-      "title": "menu-main"
-    },
-    {
-      "content_type": "component",
-      "component": true,
-      "file": "components/menu-language.tpl",
-      "layout_name": "menu-language",
-      "title": "menu-language"
-    },
-    {
-      "content_type": "component",
-      "component": true,
-      "file": "components/layout-header.tpl",
-      "layout_name": "layout-header",
-      "title": "layout-header"
-    },
-    {
-      "content_type": "component",
-      "component": true,
       "file": "components/template-head.tpl",
       "layout_name": "template-head",
       "title": "template-head"
@@ -95,6 +74,27 @@
       "file": "components/template-variables.tpl",
       "layout_name": "template-variables",
       "title": "template-variables"
+    },
+    {
+      "content_type": "component",
+      "component": true,
+      "file": "components/layout-header.tpl",
+      "layout_name": "layout-header",
+      "title": "layout-header"
+    },
+    {
+      "content_type": "component",
+      "component": true,
+      "file": "components/menu-language.tpl",
+      "layout_name": "menu-language",
+      "title": "menu-language"
+    },
+    {
+      "content_type": "component",
+      "component": true,
+      "file": "components/menu-main.tpl",
+      "layout_name": "menu-main",
+      "title": "menu-main"
     }
   ],
   "assets": [

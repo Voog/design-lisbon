@@ -1,0 +1,21 @@
+.feature {
+  $horizontal-margin: 5px;
+
+  flex-grow: 1;
+  max-width: 220px;
+  margin-right: $horizontal-margin;
+  margin-left: $horizontal-margin;
+  background-color: rgba($color-rhino, .05);
+
+  &__illustration {
+    display: block;
+    width: 100%;
+    height: auto;
+    min-height: 148px;
+    object-fit: cover;
+  }
+
+  &__body {
+    padding: 25px;
+  }
+}

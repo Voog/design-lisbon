@@ -39,12 +39,33 @@
             <div class="content-area">{% content name="section_2_title" %}</div>
           </div>
 
-          <div class="layout-content__body">
-            <div class="layout-content__column">
-              <div class="content-area">{% content name="section_2_first" %}</div>
+          <div class="layout-content__body layout-content__body--features-wrap">
+            <div class="layout-content__column layout-content__column--body">
+              <div class="content-area">{% content name="section_2_body" %}</div>
             </div>
 
-            <div class="layout-content__column">{% content name="section_2_second" %}</div>
+            <div class="layout-content__column layout-content__column--features-list">
+              <div class="feature">
+                <img class="feature__illustration" src="/photos/room-with-2-beds.jpg">
+                <div class="feature__body">
+                  <div class="content-area">{% content name="feature_1" %}</div>
+                </div>
+              </div>
+
+              <div class="feature">
+                <img class="feature__illustration" src="/photos/room-with-3-beds.jpg">
+                <div class="feature__body">
+                  <div class="content-area">{% content name="feature_2" %}</div>
+                </div>
+              </div>
+
+              <div class="feature">
+                <img class="feature__illustration" src="/photos/room-with-4-beds.jpg">
+                <div class="feature__body">
+                  <div class="content-area">{% content name="feature_3" %}</div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
