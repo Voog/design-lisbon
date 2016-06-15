@@ -119,7 +119,28 @@
   ol,
   dl {
     list-style-position: inside;
+  }
+
+  ol,
+  dl {
     padding-left: 10px;
+  }
+
+  ul {
+    padding-left: 15px;
+
+    li {
+      text-indent: -13px;
+      list-style-type: none;
+
+      // scss-lint:disable NestingDepth
+      &::before {
+        margin-right: 5px;
+        content: '—';
+      }
+      // scss-lint:enable NestingDepth
+    }
+
   }
 
   dd {

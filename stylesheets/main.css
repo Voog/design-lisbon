@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @font-face {
   font-family: "Orator";
   font-style: normal;
@@ -382,7 +383,21 @@
 .content-area ol,
 .content-area dl {
   list-style-position: inside;
+}
+.content-area ol,
+.content-area dl {
   padding-left: 10px;
+}
+.content-area ul {
+  padding-left: 15px;
+}
+.content-area ul li {
+  text-indent: -13px;
+  list-style-type: none;
+}
+.content-area ul li::before {
+  margin-right: 5px;
+  content: '—';
 }
 .content-area dd {
   margin-left: 20px;
