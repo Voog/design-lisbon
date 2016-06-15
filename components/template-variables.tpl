@@ -54,13 +54,13 @@
   {% else %}
     {% capture bg_picker_section_2_data %}
       {
-        "original_id"=>nil,
-        "color"=>false,
-        "image"=>nil,
-        "width"=>nil,
-        "height"=>nil,
-        "imageSizes"=>nil,
-        "colorData"=>nil
+        "original_id": null,
+        "color": false,
+        "image": null,
+        "width": null,
+        "height": null,
+        "imageSizes": null,
+        "colorData": null
       }
     {% endcapture %}
     {% assign bg_picker_section_2_data = bg_picker_section_2_data | replace: " ", "" | strip_newlines | escape %}
