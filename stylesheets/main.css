@@ -144,15 +144,15 @@
           align-items: flex-end;
   margin-top: 45px;
 }
-.layout-content__column--body {
+.layout-content__col--body {
   -webkit-flex-grow: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
 }
-.layout-content__column--two-column {
+.layout-content__col--two-col {
   max-width: 50%;
 }
-.layout-content__column--features-list {
+.layout-content__col--features-list {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;

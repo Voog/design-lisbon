@@ -56,12 +56,12 @@
     }
   }
 
-  &__column {
+  &__col {
     &--body {
       flex-grow: 1;
     }
 
-    &--two-column {
+    &--two-col {
       max-width: 50%;
     }
 
