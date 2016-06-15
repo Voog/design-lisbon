@@ -50,6 +50,10 @@
   &__body {
     display: flex;
 
+    &--cols {
+      justify-content: space-between;
+    }
+
     &--features-wrap {
       align-items: flex-end;
       margin-top: 45px;
@@ -62,7 +66,18 @@
     }
 
     &--two-col {
-      max-width: 50%;
+      width: 50%;
+      max-width: 500px;
+
+      // scss-lint:disable NestingDepth
+      &:nth-child(odd) {
+        margin-right: 10px;
+      }
+
+      &:nth-child(even) {
+        margin-left: 10px;
+      }
+      // scss-lint:enable NestingDepth
     }
 
     &--features-list {
