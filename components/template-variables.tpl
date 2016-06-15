@@ -113,4 +113,24 @@
     {% assign bg_picker_section_3_data = bg_picker_section_3_data | replace: " ", "" | strip_newlines | escape %}
   {% endunless %}
   {% comment %}[[ SECTION 3 BACKGROUND END ]]{% endcomment %}
+
+  {% comment %}[[ SECTION 4 BACKGROUND START ]]{% endcomment %}
+  {% unless page.data.bg_picker_section_4 == nil %}
+    {% assign bg_picker_section_4 = page.data.bg_picker_section_4 %}
+    {% assign bg_picker_section_4_data = bg_picker_section_4 | json | escape %}
+  {% else %}
+    {% capture bg_picker_section_4_data %}
+      {
+        "original_id": null,
+        "color": false,
+        "image": null,
+        "width": null,
+        "height": null,
+        "imageSizes": null,
+        "colorData": null
+      }
+    {% endcapture %}
+    {% assign bg_picker_section_4_data = bg_picker_section_4_data | replace: " ", "" | strip_newlines | escape %}
+  {% endunless %}
+  {% comment %}[[ SECTION 4 BACKGROUND END ]]{% endcomment %}
 {% endcapture %}
