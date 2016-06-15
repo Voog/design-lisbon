@@ -40,7 +40,7 @@
           </div>
 
           <div class="layout-content__body layout-content__body--features-wrap">
-            <div class="layout-content__col layout-content__col--body">
+            <div class="layout-content__col layout-content__col--stretch">
               <div class="content-area">{% content name="section_2_body" %}</div>
             </div>
 
@@ -81,13 +81,17 @@
 
         <div class="layout-content__wrap">
           <div class="layout-content__body layout-content__body--cols">
-            <div class="layout-content__col layout-content__col--body layout-content__col--two-col">
+            <div class="layout-content__col layout-content__col--stretch layout-content__col--two-col">
               <div class="content-area">{% content name="section_3_body" %}</div>
             </div>
 
-            <div class="layout-content__col layout-content__col--body layout-content__col--two-col">
+            <div class="layout-content__col layout-content__col--stretch layout-content__col--two-col">
               <div class="content-area">{% content name="section_3_body_2" %}</div>
             </div>
+          </div>
+
+          <div class="layout-content__body layout-content__body--bottom">
+            <div class="content-area">{% content name="section_3_body_3" %}</div>
           </div>
         </div>
       </section>

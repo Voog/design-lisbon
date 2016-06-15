@@ -48,20 +48,28 @@
   }
 
   &__body {
-    display: flex;
+    &--features-wrap {
+      display: flex;
+      align-items: flex-end;
+      margin-top: 45px;
+    }
 
     &--cols {
+      display: flex;
       justify-content: space-between;
     }
 
-    &--features-wrap {
-      align-items: flex-end;
-      margin-top: 45px;
+    &--bottom {
+      margin-top: 50px;
     }
   }
 
   &__col {
-    &--body {
+    &--features-list {
+      display: flex;
+    }
+
+    &--stretch {
       flex-grow: 1;
     }
 
@@ -78,10 +86,6 @@
         margin-left: 10px;
       }
       // scss-lint:enable NestingDepth
-    }
-
-    &--features-list {
-      display: flex;
     }
   }
 }
