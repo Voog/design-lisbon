@@ -190,6 +190,30 @@
     },
     {
       "content_type": "image/jpeg",
+      "file": "images/boats.jpg",
+      "kind": "images",
+      "filename": "boats.jpg"
+    },
+    {
+      "content_type": "image/jpeg",
+      "file": "images/boats_block.jpg",
+      "kind": "images",
+      "filename": "boats_block.jpg"
+    },
+    {
+      "content_type": "image/jpeg",
+      "file": "images/boats_huge.jpg",
+      "kind": "images",
+      "filename": "boats_huge.jpg"
+    },
+    {
+      "content_type": "image/jpeg",
+      "file": "images/boats_large.jpg",
+      "kind": "images",
+      "filename": "boats_large.jpg"
+    },
+    {
+      "content_type": "image/jpeg",
       "file": "images/house.jpg",
       "kind": "images",
       "filename": "house.jpg"

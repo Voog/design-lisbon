@@ -69,6 +69,28 @@
           </div>
         </div>
       </section>
+
+      <section class="layout-content layout-content--main layout-content--with-bg" data-theme="white" data-bg-picker="area" data-bg-area="section-3">
+        {% if editmode or bg_picker_section_3.color %}
+          <div class="layout-content__color-overlay" data-bg-picker="color-overlay"></div>
+        {% endif %}
+
+        {% if editmode %}
+          <button class="btn--center-left" data-state="hidden" data-bg-picker="button" data-bg-picker-picture-option="true" data-bg-picker-target-width="2048" data-bg-picker-color-option="true" data-bg-picker-alpha-option="true" data-bg-picker-key="bg_picker_section_3" data-bg="{{ bg_picker_section_3_data }}"></button>
+        {% endif %}
+
+        <div class="layout-content__wrap layout-content__wrap--focus-content">
+          <div class="layout-content__body layout-content__body--two-columns">
+            <div class="layout-content__column layout-content__column--body">
+              <div class="content-area">{% content name="section_3_body" %}</div>
+            </div>
+
+            <div class="layout-content__column layout-content__column--body">
+              <div class="content-area">{% content name="section_3_body_2" %}</div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
 
     {% include "template-javascripts" %}
