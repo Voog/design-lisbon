@@ -149,6 +149,9 @@
       -ms-flex-positive: 1;
           flex-grow: 1;
 }
+.layout-content__column--two-column {
+  max-width: 50%;
+}
 .layout-content__column--features-list {
   display: -webkit-flex;
   display: -ms-flexbox;

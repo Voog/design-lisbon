@@ -61,6 +61,10 @@
       flex-grow: 1;
     }
 
+    &--two-column {
+      max-width: 50%;
+    }
+
     &--features-list {
       display: flex;
     }
