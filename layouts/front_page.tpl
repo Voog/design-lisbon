@@ -35,11 +35,11 @@
         {% endif %}
 
         <div class="layout-content__wrap">
-          <div class="layout-content__title">
+          <div class="layout-content__area layout-content__area--top">
             <div class="content-area">{% content name="section_2_title" %}</div>
           </div>
 
-          <div class="layout-content__body layout-content__body--features-wrap">
+          <div class="layout-content__area layout-content__area--features-wrap">
             <div class="layout-content__col layout-content__col--stretch">
               <div class="content-area">{% content name="section_2_body" %}</div>
             </div>
@@ -80,7 +80,11 @@
         {% endif %}
 
         <div class="layout-content__wrap">
-          <div class="layout-content__body layout-content__body--cols">
+          <div class="layout-content__area layout-content__area--top">
+            <div class="content-area">{% content name="section_3_title" %}</div>
+          </div>
+
+          <div class="layout-content__area layout-content__area--cols">
             <div class="layout-content__col layout-content__col--stretch layout-content__col--two-col">
               <div class="content-area">{% content name="section_3_body" %}</div>
             </div>
@@ -90,7 +94,7 @@
             </div>
           </div>
 
-          <div class="layout-content__body layout-content__body--bottom">
+          <div class="layout-content__area layout-content__area--bottom">
             <div class="content-area">{% content name="section_3_body_3" %}</div>
           </div>
         </div>

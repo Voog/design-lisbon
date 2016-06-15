@@ -47,16 +47,19 @@
     }
   }
 
-  &__body {
+  &__area {
     &--features-wrap {
       display: flex;
       align-items: flex-end;
-      margin-top: 45px;
     }
 
     &--cols {
       display: flex;
       justify-content: space-between;
+    }
+
+    &--top {
+      margin-bottom: 45px;
     }
 
     &--bottom {

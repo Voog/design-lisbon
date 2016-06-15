@@ -133,16 +133,15 @@
   margin-left: 50px;
   background-color: rgba(0, 169, 110, 0.5);
 }
-.layout-content__body--features-wrap {
+.layout-content__area--features-wrap {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-align-items: flex-end;
       -ms-flex-align: end;
           align-items: flex-end;
-  margin-top: 45px;
 }
-.layout-content__body--cols {
+.layout-content__area--cols {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
@@ -150,7 +149,10 @@
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
-.layout-content__body--bottom {
+.layout-content__area--top {
+  margin-bottom: 45px;
+}
+.layout-content__area--bottom {
   margin-top: 50px;
 }
 .layout-content__col--features-list {
