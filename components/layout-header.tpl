@@ -1,4 +1,4 @@
-<header class="layout-header" data-theme="white">
+<header class="layout-header" data-theme="normal">
   <div class="layout-header__title">
     {% if editmode %}
       <div class="content-area">{% editable site.header %}</div>
