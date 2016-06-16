@@ -149,6 +149,10 @@
   -webkit-align-items: flex-end;
       -ms-flex-align: end;
           align-items: flex-end;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-right: -5px;
 }
 .layout-content__area--cols {
   display: -webkit-flex;
@@ -177,10 +181,12 @@
   display: -ms-flexbox;
   display: flex;
 }
-.layout-content__col--stretch {
+.layout-content__col--features-body {
   -webkit-flex-grow: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
+  max-width: 270px;
+  margin-right: 30px;
 }
 .layout-content__col--two-col {
   width: 50%;

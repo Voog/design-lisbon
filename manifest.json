@@ -1,9 +1,9 @@
 {
-  "description": "TODO: Write description here",
-  "name": "Lisbon",
+  "description": "New design",
+  "name": "New design",
   "preview_medium": "",
   "preview_small": "",
-  "author": "Tõnu Runnel",
+  "author": "",
   "layouts": [
     {
       "content_type": "page",
@@ -11,6 +11,41 @@
       "file": "layouts/common_page.tpl",
       "layout_name": "common_page",
       "title": "Common page"
+    },
+    {
+      "content_type": "page",
+      "component": false,
+      "file": "layouts/common_page__two_column_.tpl",
+      "layout_name": "common_page__two_column_",
+      "title": "Common page (two column)"
+    },
+    {
+      "content_type": "page",
+      "component": false,
+      "file": "layouts/features_list.tpl",
+      "layout_name": "page_default",
+      "title": "Features list"
+    },
+    {
+      "content_type": "page",
+      "component": false,
+      "file": "layouts/focus_area.tpl",
+      "layout_name": "focus_area",
+      "title": "Focus area"
+    },
+    {
+      "content_type": "page",
+      "component": false,
+      "file": "layouts/front_page.tpl",
+      "layout_name": "front_page",
+      "title": "Front page"
+    },
+    {
+      "content_type": "page",
+      "component": false,
+      "file": "layouts/wide_content.tpl",
+      "layout_name": "wide_content",
+      "title": "Wide content"
     },
     {
       "content_type": "blog",
@@ -25,41 +60,6 @@
       "file": "layouts/blog_article.tpl",
       "layout_name": "blog_article",
       "title": "Blog article"
-    },
-    {
-      "content_type": "elements",
-      "component": false,
-      "file": "layouts/front_page.tpl",
-      "layout_name": "front_page",
-      "title": "Front page"
-    },
-    {
-      "content_type": "component",
-      "component": true,
-      "file": "components/template-head.tpl",
-      "layout_name": "template-head",
-      "title": "template-head"
-    },
-    {
-      "content_type": "component",
-      "component": true,
-      "file": "components/template-javascripts.tpl",
-      "layout_name": "template-javascripts",
-      "title": "template-javascripts"
-    },
-    {
-      "content_type": "component",
-      "component": true,
-      "file": "components/template-meta.tpl",
-      "layout_name": "template-meta",
-      "title": "template-meta"
-    },
-    {
-      "content_type": "component",
-      "component": true,
-      "file": "components/template-styles.tpl",
-      "layout_name": "template-styles",
-      "title": "template-styles"
     },
     {
       "content_type": "component",
@@ -95,146 +95,198 @@
       "file": "components/menu-main.tpl",
       "layout_name": "menu-main",
       "title": "menu-main"
+    },
+    {
+      "content_type": "component",
+      "component": true,
+      "file": "components/template-head.tpl",
+      "layout_name": "template-head",
+      "title": "template-head"
+    },
+    {
+      "content_type": "component",
+      "component": true,
+      "file": "components/template-javascripts.tpl",
+      "layout_name": "template-javascripts",
+      "title": "template-javascripts"
+    },
+    {
+      "content_type": "component",
+      "component": true,
+      "file": "components/template-meta.tpl",
+      "layout_name": "template-meta",
+      "title": "template-meta"
+    },
+    {
+      "content_type": "component",
+      "component": true,
+      "file": "components/template-styles.tpl",
+      "layout_name": "template-styles",
+      "title": "template-styles"
     }
   ],
   "assets": [
     {
-      "content_type": "application/vnd.ms-fontobject",
+      "content_type": "unknown/unknown",
       "file": "assets/orator-bold.eot",
-      "kind": "assets",
+      "kind": "asset",
       "filename": "orator-bold.eot"
     },
     {
-      "content_type": "image/svg+xml",
+      "content_type": "unknown/unknown",
       "file": "assets/orator-bold.svg",
-      "kind": "assets",
+      "kind": "asset",
       "filename": "orator-bold.svg"
     },
     {
-      "content_type": "application/font-sfnt",
+      "content_type": "unknown/unknown",
       "file": "assets/orator-bold.ttf",
-      "kind": "assets",
+      "kind": "asset",
       "filename": "orator-bold.ttf"
     },
     {
-      "content_type": "application/font-woff",
+      "content_type": "unknown/unknown",
       "file": "assets/orator-bold.woff",
-      "kind": "assets",
+      "kind": "asset",
       "filename": "orator-bold.woff"
     },
     {
-      "content_type": "application/font-woff",
+      "content_type": "unknown/unknown",
       "file": "assets/orator-bold.woff2",
-      "kind": "assets",
+      "kind": "asset",
       "filename": "orator-bold.woff2"
     },
     {
-      "content_type": "application/vnd.ms-fontobject",
+      "content_type": "unknown/unknown",
       "file": "assets/orator-regular-italic.eot",
-      "kind": "assets",
+      "kind": "asset",
       "filename": "orator-regular-italic.eot"
     },
     {
-      "content_type": "image/svg+xml",
+      "content_type": "unknown/unknown",
       "file": "assets/orator-regular-italic.svg",
-      "kind": "assets",
+      "kind": "asset",
       "filename": "orator-regular-italic.svg"
     },
     {
-      "content_type": "application/font-sfnt",
+      "content_type": "unknown/unknown",
       "file": "assets/orator-regular-italic.ttf",
-      "kind": "assets",
+      "kind": "asset",
       "filename": "orator-regular-italic.ttf"
     },
     {
-      "content_type": "application/font-woff",
+      "content_type": "unknown/unknown",
       "file": "assets/orator-regular-italic.woff",
-      "kind": "assets",
+      "kind": "asset",
       "filename": "orator-regular-italic.woff"
     },
     {
-      "content_type": "application/font-woff",
+      "content_type": "unknown/unknown",
       "file": "assets/orator-regular-italic.woff2",
-      "kind": "assets",
+      "kind": "asset",
       "filename": "orator-regular-italic.woff2"
     },
     {
-      "content_type": "application/vnd.ms-fontobject",
+      "content_type": "unknown/unknown",
       "file": "assets/orator-regular.eot",
-      "kind": "assets",
+      "kind": "asset",
       "filename": "orator-regular.eot"
     },
     {
-      "content_type": "image/svg+xml",
+      "content_type": "unknown/unknown",
       "file": "assets/orator-regular.svg",
-      "kind": "assets",
+      "kind": "asset",
       "filename": "orator-regular.svg"
     },
     {
-      "content_type": "application/font-sfnt",
+      "content_type": "unknown/unknown",
       "file": "assets/orator-regular.ttf",
-      "kind": "assets",
+      "kind": "asset",
       "filename": "orator-regular.ttf"
     },
     {
-      "content_type": "application/font-woff",
+      "content_type": "unknown/unknown",
       "file": "assets/orator-regular.woff",
-      "kind": "assets",
+      "kind": "asset",
       "filename": "orator-regular.woff"
     },
     {
-      "content_type": "application/font-woff",
+      "content_type": "unknown/unknown",
       "file": "assets/orator-regular.woff2",
-      "kind": "assets",
+      "kind": "asset",
       "filename": "orator-regular.woff2"
     },
     {
-      "content_type": "image/jpeg",
+      "content_type": "image/jpg",
       "file": "images/boats.jpg",
-      "kind": "images",
+      "kind": "image",
       "filename": "boats.jpg"
     },
     {
-      "content_type": "image/jpeg",
+      "content_type": "image/jpg",
       "file": "images/boats_block.jpg",
-      "kind": "images",
+      "kind": "image",
       "filename": "boats_block.jpg"
     },
     {
-      "content_type": "image/jpeg",
+      "content_type": "image/jpg",
       "file": "images/boats_huge.jpg",
-      "kind": "images",
+      "kind": "image",
       "filename": "boats_huge.jpg"
     },
     {
-      "content_type": "image/jpeg",
+      "content_type": "image/jpg",
       "file": "images/boats_large.jpg",
-      "kind": "images",
+      "kind": "image",
       "filename": "boats_large.jpg"
     },
     {
-      "content_type": "image/jpeg",
+      "content_type": "image/jpg",
       "file": "images/house.jpg",
-      "kind": "images",
+      "kind": "image",
       "filename": "house.jpg"
     },
     {
-      "content_type": "image/jpeg",
+      "content_type": "image/jpg",
       "file": "images/house_block.jpg",
-      "kind": "images",
+      "kind": "image",
       "filename": "house_block.jpg"
     },
     {
-      "content_type": "image/jpeg",
+      "content_type": "image/jpg",
       "file": "images/house_huge.jpg",
-      "kind": "images",
+      "kind": "image",
       "filename": "house_huge.jpg"
     },
     {
-      "content_type": "image/jpeg",
+      "content_type": "image/jpg",
       "file": "images/house_large.jpg",
-      "kind": "images",
+      "kind": "image",
       "filename": "house_large.jpg"
+    },
+    {
+      "content_type": "image/jpg",
+      "file": "images/section-main-bg.jpg",
+      "kind": "image",
+      "filename": "section-main-bg.jpg"
+    },
+    {
+      "content_type": "image/jpg",
+      "file": "images/section-main-bg_block.jpg",
+      "kind": "image",
+      "filename": "section-main-bg_block.jpg"
+    },
+    {
+      "content_type": "image/jpg",
+      "file": "images/section-main-bg_huge.jpg",
+      "kind": "image",
+      "filename": "section-main-bg_huge.jpg"
+    },
+    {
+      "content_type": "image/jpg",
+      "file": "images/section-main-bg_large.jpg",
+      "kind": "image",
+      "filename": "section-main-bg_large.jpg"
     },
     {
       "content_type": "text/javascript",
@@ -251,13 +303,13 @@
     {
       "content_type": "text/css",
       "file": "stylesheets/main.css",
-      "kind": "stylesheets",
+      "kind": "stylesheet",
       "filename": "main.css"
     },
     {
       "content_type": "text/css",
       "file": "stylesheets/main.min.css",
-      "kind": "stylesheets",
+      "kind": "stylesheet",
       "filename": "main.min.css"
     }
   ]
