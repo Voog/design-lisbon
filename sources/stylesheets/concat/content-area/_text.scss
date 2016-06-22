@@ -110,10 +110,14 @@
   }
 
 
-  //p {
-  //  margin-top: 1.7em;
-  //  margin-bottom: 1.7em;
-  //}
+  p {
+    // scss-lint:disable SelectorFormat
+    .feature__body & {
+      margin-top: .6em;
+      margin-bottom: .6em;
+    }
+    // scss-lint:enable SelectorFormat
+  }
 
   ul,
   ol,
@@ -202,6 +206,11 @@
     max-width: 100%;
   }
 
+  b,
+  strong {
+    font-weight: 600;
+  }
+  
   .custom-btn {
     display: inline-block;
     padding: 8px 15px 9px;
@@ -221,11 +230,12 @@
       cursor: pointer;
     }
   }
-
-  b,
-  strong {
+  
+  .small-title {
     font-weight: 600;
+    margin-bottom: 10px;
   }
+
 
   .edy-positionable-container-center,
   .edy-positionable-container-left-block,

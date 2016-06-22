@@ -127,7 +127,7 @@
   width: 100%;
 }
 .layout-content__wrap--focus-content {
-  padding: 32px 28px;
+  padding: 28px;
   margin-right: 50px;
   margin-left: 50px;
   background-color: rgba(0, 169, 110, 0.5);
@@ -283,7 +283,7 @@
   object-fit: cover;
 }
 .feature__body {
-  padding: 25px;
+  padding: 20px 25px;
 }
 .feature .edy-empty-bordered {
   padding: 20px;
@@ -422,6 +422,10 @@
 .content-area h6 {
   font-size: 1.11111em;
 }
+.feature__body .content-area p {
+  margin-top: .6em;
+  margin-bottom: .6em;
+}
 .content-area ul,
 .content-area ol,
 .content-area dl {
@@ -495,6 +499,10 @@
 .content-area iframe {
   max-width: 100%;
 }
+.content-area b,
+.content-area strong {
+  font-weight: 600;
+}
 .content-area .custom-btn {
   display: inline-block;
   padding: 8px 15px 9px;
@@ -510,9 +518,9 @@
 .publicmode .content-area .custom-btn {
   cursor: pointer;
 }
-.content-area b,
-.content-area strong {
+.content-area .small-title {
   font-weight: 600;
+  margin-bottom: 10px;
 }
 .content-area .edy-positionable-container-center,
 .content-area .edy-positionable-container-left-block,
