@@ -265,30 +265,6 @@
       "filename": "house_large.jpg"
     },
     {
-      "content_type": "image/jpg",
-      "file": "images/section-main-bg.jpg",
-      "kind": "image",
-      "filename": "section-main-bg.jpg"
-    },
-    {
-      "content_type": "image/jpg",
-      "file": "images/section-main-bg_block.jpg",
-      "kind": "image",
-      "filename": "section-main-bg_block.jpg"
-    },
-    {
-      "content_type": "image/jpg",
-      "file": "images/section-main-bg_huge.jpg",
-      "kind": "image",
-      "filename": "section-main-bg_huge.jpg"
-    },
-    {
-      "content_type": "image/jpg",
-      "file": "images/section-main-bg_large.jpg",
-      "kind": "image",
-      "filename": "section-main-bg_large.jpg"
-    },
-    {
       "content_type": "text/javascript",
       "file": "javascripts/main.js",
       "kind": "javascript",
