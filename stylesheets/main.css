@@ -285,6 +285,9 @@
 .feature__body {
   padding: 25px;
 }
+.feature .edy-empty-bordered {
+  padding: 20px;
+}
 
 .content-area:empty {
   display: none;

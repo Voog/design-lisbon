@@ -18,4 +18,9 @@
   &__body {
     padding: 25px;
   }
+
+  // This can't be written using BEM methodology.
+  .edy-empty-bordered {
+    padding: 20px;
+  }
 }
