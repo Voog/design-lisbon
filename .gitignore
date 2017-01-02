@@ -1,9 +1,11 @@
 # Hidden files
 .DS_Store
 .sass-cache
-# .voog
+.voog
+.voog-node
+.voog-ruby
 
-#Visible files
+# Visible files
 
 # Folders
 bower_components/
