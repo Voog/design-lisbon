@@ -8,9 +8,16 @@
     {
       "content_type": "page",
       "component": false,
-      "file": "layouts/common_page.tpl",
-      "layout_name": "page_default",
-      "title": "Common page"
+      "file": "layouts/front_page.tpl",
+      "layout_name": "page_front",
+      "title": "Front page"
+    },
+    {
+      "content_type": "page",
+      "component": false,
+      "file": "layouts/wide_content.tpl",
+      "layout_name": "wide_content",
+      "title": "Wide content"
     },
     {
       "content_type": "page",
@@ -18,6 +25,13 @@
       "file": "layouts/common_page__two_column_.tpl",
       "layout_name": "common_page__two_column_",
       "title": "Common page (two column)"
+    },
+    {
+      "content_type": "page",
+      "component": false,
+      "file": "layouts/common_page.tpl",
+      "layout_name": "page_default",
+      "title": "Common page"
     },
     {
       "content_type": "page",
@@ -34,20 +48,6 @@
       "title": "Focus area"
     },
     {
-      "content_type": "page",
-      "component": false,
-      "file": "layouts/front_page.tpl",
-      "layout_name": "page_front",
-      "title": "Front page"
-    },
-    {
-      "content_type": "page",
-      "component": false,
-      "file": "layouts/wide_content.tpl",
-      "layout_name": "wide_content",
-      "title": "Wide content"
-    },
-    {
       "content_type": "blog",
       "component": false,
       "file": "layouts/blog___news.tpl",
@@ -60,41 +60,6 @@
       "file": "layouts/blog_article.tpl",
       "layout_name": "blog_article",
       "title": "Blog article"
-    },
-    {
-      "content_type": "component",
-      "component": true,
-      "file": "components/template-tools.tpl",
-      "layout_name": "template-tools",
-      "title": "template-tools"
-    },
-    {
-      "content_type": "component",
-      "component": true,
-      "file": "components/template-variables.tpl",
-      "layout_name": "template-variables",
-      "title": "template-variables"
-    },
-    {
-      "content_type": "component",
-      "component": true,
-      "file": "components/layout-header.tpl",
-      "layout_name": "layout-header",
-      "title": "layout-header"
-    },
-    {
-      "content_type": "component",
-      "component": true,
-      "file": "components/menu-language.tpl",
-      "layout_name": "menu-language",
-      "title": "menu-language"
-    },
-    {
-      "content_type": "component",
-      "component": true,
-      "file": "components/menu-main.tpl",
-      "layout_name": "menu-main",
-      "title": "menu-main"
     },
     {
       "content_type": "component",
@@ -120,77 +85,52 @@
     {
       "content_type": "component",
       "component": true,
+      "file": "components/layout-header.tpl",
+      "layout_name": "layout-header",
+      "title": "layout-header"
+    },
+    {
+      "content_type": "component",
+      "component": true,
+      "file": "components/template-tools.tpl",
+      "layout_name": "template-tools",
+      "title": "template-tools"
+    },
+    {
+      "content_type": "component",
+      "component": true,
+      "file": "components/template-variables.tpl",
+      "layout_name": "template-variables",
+      "title": "template-variables"
+    },
+    {
+      "content_type": "component",
+      "component": true,
+      "file": "components/menu-main.tpl",
+      "layout_name": "menu-main",
+      "title": "menu-main"
+    },
+    {
+      "content_type": "component",
+      "component": true,
       "file": "components/template-styles.tpl",
       "layout_name": "template-styles",
       "title": "template-styles"
+    },
+    {
+      "content_type": "component",
+      "component": true,
+      "file": "components/menu-language.tpl",
+      "layout_name": "menu-language",
+      "title": "menu-language"
     }
   ],
   "assets": [
     {
       "content_type": "unknown/unknown",
-      "file": "assets/orator-bold.eot",
+      "file": "assets/orator-regular.woff2",
       "kind": "asset",
-      "filename": "orator-bold.eot"
-    },
-    {
-      "content_type": "unknown/unknown",
-      "file": "assets/orator-bold.svg",
-      "kind": "asset",
-      "filename": "orator-bold.svg"
-    },
-    {
-      "content_type": "unknown/unknown",
-      "file": "assets/orator-bold.ttf",
-      "kind": "asset",
-      "filename": "orator-bold.ttf"
-    },
-    {
-      "content_type": "unknown/unknown",
-      "file": "assets/orator-bold.woff",
-      "kind": "asset",
-      "filename": "orator-bold.woff"
-    },
-    {
-      "content_type": "unknown/unknown",
-      "file": "assets/orator-bold.woff2",
-      "kind": "asset",
-      "filename": "orator-bold.woff2"
-    },
-    {
-      "content_type": "unknown/unknown",
-      "file": "assets/orator-regular-italic.eot",
-      "kind": "asset",
-      "filename": "orator-regular-italic.eot"
-    },
-    {
-      "content_type": "unknown/unknown",
-      "file": "assets/orator-regular-italic.svg",
-      "kind": "asset",
-      "filename": "orator-regular-italic.svg"
-    },
-    {
-      "content_type": "unknown/unknown",
-      "file": "assets/orator-regular-italic.ttf",
-      "kind": "asset",
-      "filename": "orator-regular-italic.ttf"
-    },
-    {
-      "content_type": "unknown/unknown",
-      "file": "assets/orator-regular-italic.woff",
-      "kind": "asset",
-      "filename": "orator-regular-italic.woff"
-    },
-    {
-      "content_type": "unknown/unknown",
-      "file": "assets/orator-regular-italic.woff2",
-      "kind": "asset",
-      "filename": "orator-regular-italic.woff2"
-    },
-    {
-      "content_type": "unknown/unknown",
-      "file": "assets/orator-regular.eot",
-      "kind": "asset",
-      "filename": "orator-regular.eot"
+      "filename": "orator-regular.woff2"
     },
     {
       "content_type": "unknown/unknown",
@@ -200,9 +140,21 @@
     },
     {
       "content_type": "unknown/unknown",
-      "file": "assets/orator-regular.ttf",
+      "file": "assets/orator-bold.woff2",
       "kind": "asset",
-      "filename": "orator-regular.ttf"
+      "filename": "orator-bold.woff2"
+    },
+    {
+      "content_type": "unknown/unknown",
+      "file": "assets/orator-bold.svg",
+      "kind": "asset",
+      "filename": "orator-bold.svg"
+    },
+    {
+      "content_type": "unknown/unknown",
+      "file": "assets/orator-regular-italic.woff",
+      "kind": "asset",
+      "filename": "orator-regular-italic.woff"
     },
     {
       "content_type": "unknown/unknown",
@@ -212,15 +164,63 @@
     },
     {
       "content_type": "unknown/unknown",
-      "file": "assets/orator-regular.woff2",
+      "file": "assets/orator-regular-italic.svg",
       "kind": "asset",
-      "filename": "orator-regular.woff2"
+      "filename": "orator-regular-italic.svg"
+    },
+    {
+      "content_type": "unknown/unknown",
+      "file": "assets/orator-bold.woff",
+      "kind": "asset",
+      "filename": "orator-bold.woff"
+    },
+    {
+      "content_type": "unknown/unknown",
+      "file": "assets/orator-bold.ttf",
+      "kind": "asset",
+      "filename": "orator-bold.ttf"
+    },
+    {
+      "content_type": "unknown/unknown",
+      "file": "assets/orator-regular-italic.eot",
+      "kind": "asset",
+      "filename": "orator-regular-italic.eot"
+    },
+    {
+      "content_type": "unknown/unknown",
+      "file": "assets/orator-regular.ttf",
+      "kind": "asset",
+      "filename": "orator-regular.ttf"
+    },
+    {
+      "content_type": "unknown/unknown",
+      "file": "assets/orator-bold.eot",
+      "kind": "asset",
+      "filename": "orator-bold.eot"
+    },
+    {
+      "content_type": "unknown/unknown",
+      "file": "assets/orator-regular-italic.woff2",
+      "kind": "asset",
+      "filename": "orator-regular-italic.woff2"
+    },
+    {
+      "content_type": "unknown/unknown",
+      "file": "assets/orator-regular-italic.ttf",
+      "kind": "asset",
+      "filename": "orator-regular-italic.ttf"
+    },
+    {
+      "content_type": "unknown/unknown",
+      "file": "assets/orator-regular.eot",
+      "kind": "asset",
+      "filename": "orator-regular.eot"
     },
     {
       "content_type": "image/jpg",
-      "file": "images/boats.jpg",
+      "file": "images/house_block.jpg",
       "kind": "image",
-      "filename": "boats.jpg"
+      "filename": "house_block.jpg"
     },
     {
       "content_type": "image/jpg",
@@ -230,9 +230,15 @@
     },
     {
       "content_type": "image/jpg",
-      "file": "images/boats_huge.jpg",
+      "file": "images/house_huge.jpg",
       "kind": "image",
-      "filename": "boats_huge.jpg"
+      "filename": "house_huge.jpg"
+    },
+    {
+      "content_type": "image/jpg",
+      "file": "images/house_large.jpg",
+      "kind": "image",
+      "filename": "house_large.jpg"
     },
     {
       "content_type": "image/jpg",
@@ -248,27 +254,15 @@
     },
     {
       "content_type": "image/jpg",
-      "file": "images/house_block.jpg",
+      "file": "images/boats_huge.jpg",
       "kind": "image",
-      "filename": "house_block.jpg"
+      "filename": "boats_huge.jpg"
     },
     {
       "content_type": "image/jpg",
-      "file": "images/house_huge.jpg",
+      "file": "images/boats.jpg",
       "kind": "image",
-      "filename": "house_huge.jpg"
-    },
-    {
-      "content_type": "image/jpg",
-      "file": "images/house_large.jpg",
-      "kind": "image",
-      "filename": "house_large.jpg"
-    },
-    {
-      "content_type": "text/javascript",
-      "file": "javascripts/main.js",
-      "kind": "javascript",
-      "filename": "main.js"
+      "filename": "boats.jpg"
     },
     {
       "content_type": "text/javascript",
@@ -277,16 +271,22 @@
       "filename": "main.min.js"
     },
     {
-      "content_type": "text/css",
-      "file": "stylesheets/main.css",
-      "kind": "stylesheet",
-      "filename": "main.css"
+      "content_type": "text/javascript",
+      "file": "javascripts/main.js",
+      "kind": "javascript",
+      "filename": "main.js"
     },
     {
       "content_type": "text/css",
       "file": "stylesheets/main.min.css",
       "kind": "stylesheet",
       "filename": "main.min.css"
+    },
+    {
+      "content_type": "text/css",
+      "file": "stylesheets/main.css",
+      "kind": "stylesheet",
+      "filename": "main.css"
     }
   ]
 }
