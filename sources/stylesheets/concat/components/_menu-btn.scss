@@ -1,0 +1,87 @@
+// =============================================================================
+// Menu toggle button
+// =============================================================================
+.menu-btn {
+  display: inline-block;
+  padding: 5px 5px 5px 10px;
+  margin: 0 -5px 0 0;
+  overflow: visible;
+  font: inherit;
+  line-height: .7;
+  color: inherit;
+  text-transform: none;
+  cursor: pointer;
+  background-color: transparent;
+  border: 0;
+  transition-duration: .15s;
+  transition-property: filter;
+  transition-timing-function: linear;
+
+  @include breakpoint($medium-up) {
+    display: none;
+  }
+
+  &:hover {
+    opacity: .5;
+  }
+
+  &:focus {
+    outline: 0;
+  }
+
+  &__inner {
+    position: relative;
+    display: inline-block;
+    width: 26px;
+    height: 19px;
+  }
+
+  &__stripes {
+    top: 50%;
+    display: block;
+    margin-top: -8px;
+    background-color: rgba($color-rhino, 1);
+
+    &,
+    &::before,
+    &::after {
+      position: absolute;
+      width: 26px;
+      height: 3px;
+      border-radius: 4px;
+      transition-duration: .15s;
+      transition-property: transform;
+      transition-timing-function: ease;
+      background-color: rgba($color-rhino, 1);
+    }
+
+    &::before,
+    &::after {
+      display: block;
+      content: '';
+    }
+
+    &::before {
+      top: 7px;
+    }
+
+    &::after {
+      top: 14px;
+    }
+
+    [data-menu-main-state="open"] & {
+      transform: translate3d(0, 7px, 0) rotate(45deg);
+
+      // scss-lint:disable NestingDepth
+      &::before {
+        opacity: 0;
+        transform: rotate(-45deg) translate3d(-5.71px, -6px, 0);
+      }
+
+      &::after {
+        transform: translate3d(0, -14px, 0) rotate(-90deg);
+      }
+      // scss-lint:enable NestingDepth
+    }
+  }
+}

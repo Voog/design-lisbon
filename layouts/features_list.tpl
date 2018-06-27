@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 {% include "template-variables" %}
 
-<html class="root" lang="{{ page.language_code }}" data-state="{{ view_mode }}">
+<html class="root" lang="{{ page.language_code }}" data-state="{{ view_mode }}" data-menu-main-state="closed">
   <head prefix="og: http://ogp.me/ns#">
     {% include "template-head" %}
     {% include "template-styles" %}

@@ -1,4 +1,4 @@
-<ul class="menu-main">
+<ul class="menu-main" data-sideclick="prevent">
   {% unless site.root_item.hidden? %}
     {% menulink site.root_item wrapper-tag="li" wrapper-class="menu-main__item" selected-class="menu-main__item--selected" current-class="menu-main__item--current" untranslated-class="menu-main__item--untranslated" %}
   {% endunless %}
