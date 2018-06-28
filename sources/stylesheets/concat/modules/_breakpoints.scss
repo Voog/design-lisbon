@@ -1,6 +1,13 @@
 // =============================================================================
 // MEDIA QUERY BREAKPOINTS
 // =============================================================================
+$wide-1: 1500px;
+$tablet-1: 1024px;
+$tablet-1-down: 1024px - 1px;
+$tablet-1-up: 1024px + 1px;
+$tablet-2: 850px;
+$tablet-3: 640px;
+
 $large: 1024px;
 $large-down: $large - 1px;
 $large-up: $large + 1px;

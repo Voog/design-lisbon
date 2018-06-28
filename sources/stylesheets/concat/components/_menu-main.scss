@@ -1,5 +1,5 @@
 .menu-main {
-  @include breakpoint(max-width $medium) {
+  @include breakpoint(max-width $tablet-1) {
     position: fixed;
     top: 0;
     bottom: 0;
@@ -15,7 +15,7 @@
   }
 
   [data-menu-main-state="closed"] & {
-    @include breakpoint(max-width $medium) {
+    @include breakpoint(max-width $tablet-1) {
       right: -205px;
     }
   }
@@ -33,11 +33,11 @@
 
   &__item {
 
-    @include breakpoint(max-width $medium) {
+    @include breakpoint(max-width $tablet-1) {
       display: block;
     }
 
-    @include breakpoint($medium-up) {
+    @include breakpoint($tablet-1-up) {
       display: inline-block;
     }
 

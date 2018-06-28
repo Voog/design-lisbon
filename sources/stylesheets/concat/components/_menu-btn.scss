@@ -17,7 +17,7 @@
   transition-property: filter;
   transition-timing-function: linear;
 
-  @include breakpoint($medium-up) {
+  @include breakpoint($tablet-1-up) {
     display: none;
   }
 
