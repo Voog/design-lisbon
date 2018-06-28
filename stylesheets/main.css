@@ -17,6 +17,26 @@
   font-weight: 700;
   src: url("../assets/orator-bold.eot?#iefix") format("embedded-opentype"), url("../assets/orator-bold.woff2") format("woff2"), url("../assets/orator-bold.woff") format("woff"), url("../assets/orator-bold.ttf") format("truetype"), url("../assets/orator-bold.svg#Orator") format("svg");
 }
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/* Firefox < 16 */
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/* Internet Explorer */
+/* Opera < 12.1 */
 [data-state='hidden'] {
   display: none;
 }
@@ -67,6 +87,8 @@
     -webkit-transition-property: right;
     -o-transition-property: right;
     transition-property: right;
+    -webkit-animation: fadein 2s;
+            animation: fadein 2s;
   }
 }
 @media (max-width: 1024px) {
