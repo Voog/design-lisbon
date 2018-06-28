@@ -28,7 +28,13 @@
   }
 
   &__title {
-    flex: 1 0 auto;
+    flex: 1;
+
+    [data-menu-main-state="open"] & {
+      @include breakpoint(max-width $tablet-1) {
+        display: none;
+      }
+    }
   }
 
   &__link {
@@ -58,5 +64,11 @@
   &__menu-language {
     flex: 1;
     text-align: right;
+
+    [data-menu-main-state="open"] & {
+      @include breakpoint(max-width $tablet-1) {
+        display: none;
+      }
+    }
   }
 }
