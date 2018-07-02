@@ -1,4 +1,16 @@
 ;(function($) {
+  // show mobile menu on scrolling up
+  var lastScrollTop = 0;
+  $(window).scroll(function() {
+    var st = $(this).scrollTop();
+    if (st > lastScrollTop) {
+      $('.menu-btn').removeClass('scroll');
+    } else {
+      $('.menu-btn').addClass('scroll');
+    }
+    lastScrollTop = st;
+  });
+
   // =============================================================================
   // Vanilla JS extend function.
   //

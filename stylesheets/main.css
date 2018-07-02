@@ -62,8 +62,7 @@
 }
 
 .layout-header {
-  position: fixed;
-  right: 0;
+  position: absolute;
   left: 0;
   z-index: 1;
   display: -webkit-box;
@@ -360,6 +359,11 @@
   margin-bottom: 0;
   list-style-type: none;
 }
+@media (max-width: 1024px) {
+  .menu-language {
+    margin-right: 30px;
+  }
+}
 .menu-language__item {
   display: block;
 }
@@ -408,9 +412,8 @@
 }
 
 .menu-btn {
-  display: inline-block;
-  padding: 5px 5px 5px 10px;
-  margin: 0 -5px 0 0;
+  position: absolute;
+  right: 15px;
   overflow: visible;
   font: inherit;
   line-height: .7;
@@ -431,8 +434,15 @@
        -o-transition-timing-function: linear;
           transition-timing-function: linear;
 }
+.menu-btn.scroll {
+  position: fixed;
+  display: inline-block;
+}
 @media (min-width: 1025px) {
   .menu-btn {
+    display: none;
+  }
+  .menu-btn.scroll {
     display: none;
   }
 }

@@ -2,9 +2,8 @@
 // Menu toggle button
 // =============================================================================
 .menu-btn {
-  display: inline-block;
-  padding: 5px 5px 5px 10px;
-  margin: 0 -5px 0 0;
+  position: absolute;
+  right: 15px;
   overflow: visible;
   font: inherit;
   line-height: .7;
@@ -17,8 +16,17 @@
   transition-property: filter;
   transition-timing-function: linear;
 
+  &.scroll {
+    position: fixed;
+    display: inline-block;
+  }
+
   @include breakpoint($tablet-1-up) {
     display: none;
+
+    &.scroll {
+      display: none;
+    }
   }
 
   &:hover {
