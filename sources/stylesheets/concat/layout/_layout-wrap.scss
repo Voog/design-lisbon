@@ -1,0 +1,22 @@
+// =============================================================================
+// Layout wrap
+// =============================================================================
+.layout-wrap {
+  position: relative;
+
+  [data-menu-main-state="closed"] & {
+    @include breakpoint(max-width $medium) {
+      right: 0;
+      transition-duration: 200ms;
+      transition-property: right;
+    }
+  }
+
+  [data-menu-main-state="open"] & {
+    @include breakpoint(max-width $medium) {
+      right: 205px;
+      transition-duration: 200ms;
+      transition-property: right;
+    }
+  }
+}

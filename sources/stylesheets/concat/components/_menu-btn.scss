@@ -19,6 +19,13 @@
   &.scroll {
     position: fixed;
     display: inline-block;
+    animation: fadein 1s;
+
+    [data-menu-main-state="open"] & {
+      right:215px;
+      transition-duration: 200ms;
+      transition-property: right;
+    }
   }
 
   @include breakpoint($tablet-1-up) {

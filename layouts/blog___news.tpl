@@ -7,5 +7,7 @@
   </head>
 
   <body>
+    <div class="layout-wrap">
+    </div>
   </body>
 </html>

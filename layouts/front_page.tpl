@@ -8,6 +8,7 @@
   </head>
 
   <body class="layout">
+    <div class="layout-wrap">
       {% include "layout-header" %}
 
       <main>
@@ -129,5 +130,6 @@
 
       {% include "template-javascripts" %}
       {% include "template-tools" %}
+    </div>
   </body>
 </html>
