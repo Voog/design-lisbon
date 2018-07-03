@@ -11,6 +11,13 @@
   padding: 30px;
   font-family: $secondary-font-family;
 
+  @include breakpoint($tablet-1-up) {
+    &.scroll {
+      position: fixed;
+      animation: fadein 1s;
+    }
+  }
+
   &__title {
     flex: 1;
   }

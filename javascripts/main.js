@@ -5,8 +5,10 @@
     var st = $(this).scrollTop();
     if (st > lastScrollTop) {
       $('.menu-btn').removeClass('scroll');
+      $('.layout-header').removeClass('scroll');
     } else {
       $('.menu-btn').addClass('scroll');
+      $('.layout-header').addClass('scroll');
     }
     lastScrollTop = st;
   });
