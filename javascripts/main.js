@@ -4,11 +4,14 @@
   $(window).scroll(function() {
     var st = $(this).scrollTop();
     if (st > lastScrollTop) {
-      $('.menu-btn').removeClass('scroll');
-      $('.layout-header').removeClass('scroll');
+      setTimeout(function(){
+        $('.menu-btn').removeClass('scroll');
+        $('.layout-header').removeClass('scroll');
+      }, 400);
     } else {
       $('.menu-btn').addClass('scroll');
       $('.layout-header').addClass('scroll');
+
     }
     lastScrollTop = st;
   });
