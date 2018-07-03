@@ -2,7 +2,6 @@
 // Menu toggle button
 // =============================================================================
 .menu-btn {
-  position: absolute;
   right: 15px;
   overflow: visible;
   font: inherit;
@@ -16,24 +15,12 @@
   transition-property: filter;
   transition-timing-function: linear;
 
-  &.scroll {
-    position: fixed;
-    display: inline-block;
-    animation: fadein 1s;
-
-    [data-menu-main-state="open"] & {
-      right:215px;
-      transition-duration: 200ms;
-      transition-property: right;
-    }
-  }
+  position: fixed;
+  display: inline-block;
+  animation: fadein 1s;
 
   @include breakpoint($tablet-1-up) {
     display: none;
-
-    &.scroll {
-      display: none;
-    }
   }
 
   &:hover {
@@ -86,6 +73,9 @@
 
     [data-menu-main-state="open"] & {
       transform: translate3d(0, 7px, 0) rotate(45deg);
+      right:200px;
+      transition-duration: 200ms;
+      transition-property: right;
 
       // scss-lint:disable NestingDepth
       &::before {

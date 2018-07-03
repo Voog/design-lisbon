@@ -5,11 +5,9 @@
     var st = $(this).scrollTop();
     if (st > lastScrollTop) {
       setTimeout(function(){
-        $('.menu-btn').removeClass('scroll');
         $('.layout-header').removeClass('scroll');
       }, 400);
     } else {
-      $('.menu-btn').addClass('scroll');
       $('.layout-header').addClass('scroll');
 
     }
