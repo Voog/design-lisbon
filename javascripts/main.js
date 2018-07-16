@@ -1,19 +1,4 @@
 ;(function($) {
-  // show mobile menu on scrolling up
-  var lastScrollTop = 0;
-  $(window).scroll(function() {
-    var st = $(this).scrollTop();
-    if (st > lastScrollTop) {
-      setTimeout(function(){
-        $('.layout-header').removeClass('scroll');
-      }, 400);
-    } else {
-      $('.layout-header').addClass('scroll');
-
-    }
-    lastScrollTop = st;
-  });
-
   // =============================================================================
   // Vanilla JS extend function.
   //
