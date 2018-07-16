@@ -1,6 +1,7 @@
 .menu-main {
   @include breakpoint(max-width $tablet-1) {
     position: fixed;
+    right: -205px;
     top: 0;
     bottom: 0;
     z-index: 1;
@@ -12,12 +13,6 @@
     box-sizing: border-box;
     transition-duration: 200ms;
     transition-property: right;
-  }
-
-  [data-menu-main-state="closed"] & {
-    @include breakpoint(max-width $tablet-1) {
-      right: -205px;
-    }
   }
 
   [data-menu-main-state="open"] & {
