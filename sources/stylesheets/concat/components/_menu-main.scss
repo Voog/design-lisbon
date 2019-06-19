@@ -1,4 +1,24 @@
 .menu-main {
+  @include breakpoint(max-width $tablet-1) {
+    position: fixed;
+    right: -205px;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    width: 205px;
+    padding-top: 40px;
+    padding-bottom: 16px;
+    background-color: white;
+    box-shadow: 0 0 5px 0 rgba(white, .1);
+    box-sizing: border-box;
+    transition-duration: 200ms;
+    transition-property: right;
+  }
+
+  [data-menu-main-state="open"] & {
+    right: 0;
+  }
+
   $whitespace: 0;
 
   padding-left: $whitespace;
@@ -7,7 +27,14 @@
   list-style-type: none;
 
   &__item {
-    display: inline-block;
+
+    @include breakpoint(max-width $tablet-1) {
+      display: block;
+    }
+
+    @include breakpoint($tablet-1-up) {
+      display: inline-block;
+    }
 
     // TODO: Convert to BEM syntax if CMS adds support for {% menulink %} classes.
     a {

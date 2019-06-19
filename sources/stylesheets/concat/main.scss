@@ -13,6 +13,8 @@
 @import 'modules/mixins';
 @import 'modules/colors';
 @import 'modules/fonts';
+@import 'modules/breakpoints';
+@import 'modules/animations';
 
 // GENERAL
 @import 'general/states';
@@ -23,11 +25,13 @@
 @import 'layout/layout';
 @import 'layout/layout-header';
 @import 'layout/layout-content';
+@import 'layout/layout-wrap';
 
 // COMPONENTS
 @import 'components/menu-main';
 @import 'components/menu-language';
 @import 'components/feature';
+@import 'components/menu-btn';
 
 // CONTENT AREAS
 @import 'content-area/container';

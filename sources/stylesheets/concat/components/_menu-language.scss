@@ -7,6 +7,11 @@
   margin-bottom: $whitespace;
   list-style-type: none;
 
+  @include breakpoint(max-width $tablet-1) {
+    margin-right: 30px;
+  }
+
+
   &__item {
     display: block;
 
@@ -17,6 +22,7 @@
 
     // TODO: Convert to BEM syntax if CMS adds support for {% menulink %} classes.
     a {
+      padding-bottom: 5px;
       display: block;
       font-size: 14px;
       text-decoration: none;
